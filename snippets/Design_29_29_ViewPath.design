@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="91" y="65">
+            <group eventID="1" id="-1">
+                <if comment="false" x="102" y="90">
+                    <group eventID="1" id="-1">
+                        <draw-text comment="false" x="113" y="123">
+                            <int id="0" val="Room 117"/>
+                            <int id="1" val="10"/>
+                            <int id="2" val="70"/>
+                        </draw-text>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </amousestate>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

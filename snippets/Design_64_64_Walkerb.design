@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="107" y="117">
+            <group eventID="1" id="-1">
+                <if comment="false" x="118" y="142">
+                    <group eventID="1" id="-1">
+                        <push-shove comment="false" x="129" y="175">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="130"/>
+                            <int id="3" val="100"/>
+                            <int id="4" val="5"/>
+                        </push-shove>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="0"/>
+                    </amousestate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

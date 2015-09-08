@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="158" y="64">
+            <group eventID="1" id="-1">
+                <if comment="false" x="169" y="89">
+                    <group eventID="1" id="-1">
+                        <set-game-val-3 comment="false" x="180" y="122">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-3>
+                        <set-game-val-5 comment="false" x="180" y="147">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-5>
+                        <set-game-val-4 comment="false" x="180" y="172">
+                            <int id="0" val="116"/>
+                        </set-game-val-4>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </amousestate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

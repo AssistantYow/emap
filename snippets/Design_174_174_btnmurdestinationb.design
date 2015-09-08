@@ -1,0 +1,1647 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="78">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                        </setanim>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <amousestate comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="3"/>
+                        </amousestate>
+                    </not>
+                </if>
+                <if comment="false" x="26" y="117">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="150">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="2"/>
+                        </setanim>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="3"/>
+                    </amousestate>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="2" id="-1">
+                        <set-xy comment="false" x="37" y="70">
+                            <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="130"/>
+                        </set-xy>
+                        <set-xy comment="false" x="37" y="102">
+                            <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="150"/>
+                        </set-xy>
+                        <set-opacity comment="false" x="37" y="134">
+                            <get-val-174-37 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="166">
+                            <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="198">
+                            <get-val-174-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="230">
+                            <get-val-174-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="262">
+                            <get-val-174-3 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="294">
+                            <get-val-174-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="326">
+                            <get-val-174-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="358">
+                            <get-val-174-6 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="390">
+                            <get-val-174-7 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="422">
+                            <get-val-174-8 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="454">
+                            <get-val-174-9 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="486">
+                            <get-val-174-10 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="518">
+                            <get-val-174-11 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="550">
+                            <get-val-174-12 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="582">
+                            <get-val-174-13 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="614">
+                            <get-val-174-14 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="646">
+                            <get-val-174-15 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="678">
+                            <get-val-174-16 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="710">
+                            <get-val-174-17 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="742">
+                            <get-val-174-18 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="774">
+                            <get-val-174-19 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="806">
+                            <get-val-174-20 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="838">
+                            <get-val-174-21 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="870">
+                            <get-val-174-22 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="902">
+                            <get-val-174-23 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="934">
+                            <get-val-174-24 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="966">
+                            <get-val-174-25 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="998">
+                            <get-val-174-26 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1030">
+                            <get-val-174-27 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1062">
+                            <get-val-174-28 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1094">
+                            <get-val-174-29 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1126">
+                            <get-val-174-30 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1158">
+                            <get-val-174-31 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1190">
+                            <get-val-174-32 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1222">
+                            <get-val-174-33 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1254">
+                            <get-val-174-34 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <else comment="false" x="26" y="1298">
+                    <group eventID="2" id="-1">
+                        <set-xy comment="false" x="37" y="1318">
+                            <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="130"/>
+                        </set-xy>
+                        <set-xy comment="false" x="37" y="1350">
+                            <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="150"/>
+                        </set-xy>
+                        <set-opacity comment="false" x="37" y="1382">
+                            <get-val-174-37 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1414">
+                            <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1446">
+                            <get-val-174-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1478">
+                            <get-val-174-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1510">
+                            <get-val-174-3 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1542">
+                            <get-val-174-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1574">
+                            <get-val-174-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1606">
+                            <get-val-174-6 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1638">
+                            <get-val-174-7 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1670">
+                            <get-val-174-8 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1702">
+                            <get-val-174-9 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1734">
+                            <get-val-174-10 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1766">
+                            <get-val-174-11 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1798">
+                            <get-val-174-12 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1830">
+                            <get-val-174-13 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1862">
+                            <get-val-174-14 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1894">
+                            <get-val-174-15 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1926">
+                            <get-val-174-16 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1958">
+                            <get-val-174-17 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1990">
+                            <get-val-174-18 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2022">
+                            <get-val-174-19 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2054">
+                            <get-val-174-20 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2086">
+                            <get-val-174-21 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2118">
+                            <get-val-174-22 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2150">
+                            <get-val-174-23 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2182">
+                            <get-val-174-24 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2214">
+                            <get-val-174-25 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2246">
+                            <get-val-174-26 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2278">
+                            <get-val-174-27 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2310">
+                            <get-val-174-28 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2342">
+                            <get-val-174-29 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2374">
+                            <get-val-174-30 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2406">
+                            <get-val-174-31 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2438">
+                            <get-val-174-32 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2470">
+                            <get-val-174-33 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2502">
+                            <get-val-174-34 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                    </group>
+                </else>
+            </group>
+        </draw>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="3" id="-1">
+                        <if comment="false" x="37" y="73">
+                            <group eventID="3" id="-1">
+                                <set-game-val-0 comment="false" x="48" y="103">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-0>
+                                <set-game-val-3 comment="false" x="48" y="128">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-3>
+                                <set-game-val-5 comment="false" x="48" y="153">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-5>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <true comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </if>
+                        <else comment="false" x="37" y="190">
+                            <group eventID="3" id="-1">
+                                <set-game-val-0 comment="false" x="48" y="210">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-0>
+                                <set-game-val-3 comment="false" x="48" y="235">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-3>
+                                <set-game-val-5 comment="false" x="48" y="260">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-5>
+                            </group>
+                        </else>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </amousestate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="4" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="4" id="-1">
+                        <if comment="false" x="37" y="70">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="100">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="213"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="132">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="139"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="164">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="196">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="228">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="146"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="260">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="1"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="304">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="334">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="224"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="366">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="192"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="398">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="430">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="2"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="462">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="494">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="178"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="2"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="538">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="568">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="234"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="600">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="238"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="632">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="664">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="3"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="696">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="728">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="3"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="772">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="802">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="217"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="834">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="219"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="866">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="898">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="4"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="930">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="962">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="4"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="1006">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="1036">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="179"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="1068">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="248"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="1100">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="1132">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="5"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="1164">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="1196">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="5"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="1240">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="1270">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="223"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="1302">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="263"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="1334">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="1366">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="6"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="1398">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="1430">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="6"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="1474">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="1504">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="163"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="1536">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="272"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="1568">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="1600">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="7"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="1632">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="1664">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="7"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="1708">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="1738">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="264"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="1770">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="317"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="1802">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="1834">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="8"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="1866">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="1898">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="8"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="1942">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="1972">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="264"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="2004">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="355"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="2036">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="2068">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="9"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="2100">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="2132">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="9"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="2176">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="2206">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="264"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="2238">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="394"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="2270">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="2302">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="10"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="2334">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="2366">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="10"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="2410">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="2440">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="232"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="2472">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="317"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="2504">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="2536">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="11"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="2568">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="2600">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="11"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="2644">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="2674">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="228"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="2706">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="346"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="2738">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="2770">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="12"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="2802">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="2834">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="12"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="2878">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="2908">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="232"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="2940">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="371"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="2972">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="3004">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="13"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="3036">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="3068">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="13"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="3112">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="3142">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="222"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="3174">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="386"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="3206">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="3238">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="14"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="3270">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="3302">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="14"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="3346">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="3376">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="219"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="3408">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="404"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="3440">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="3472">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="15"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="3504">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="3536">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="15"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="3580">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="3610">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="172"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="3642">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="359"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="3674">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="3706">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="16"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="3738">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="3770">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="16"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="3814">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="3844">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="149"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="3876">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="377"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="3908">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="3940">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="17"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="3972">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="4004">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="17"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="4048">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="4078">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="170"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="4110">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="395"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="4142">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="4174">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="18"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="4206">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="4238">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="18"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="4282">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="4312">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="148"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="4344">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="126"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="4376">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="4408">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="19"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="4440">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="4472">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="169"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="19"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="4516">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="4546">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="147"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="4578">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="156"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="4610">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="4642">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="20"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="4674">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="4706">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="20"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="4750">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="4780">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="290"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="4812">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="398"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="4844">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="4876">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="21"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="4908">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="4940">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="21"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="4984">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="5014">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="284"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="5046">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="124"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="5078">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="5110">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="22"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="5142">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="5174">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="162"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="22"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="5218">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="5248">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="291"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="5280">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="98"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="5312">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="5344">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="23"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="5376">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="141"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="5408">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="135"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="23"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="5452">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="5482">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="284"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="5514">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="73"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="5546">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="5578">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="24"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="5610">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="5642">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="115"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="24"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="5686">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="5716">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="265"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="5748">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="0"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="5780">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="5812">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="25"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="5844">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="5876">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="42"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="25"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="5920">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="5950">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="150"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="5982">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="432"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="6014">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="6046">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="26"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="6078">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="130"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="6110">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="173"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="26"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="6154">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="6184">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="148"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="6216">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="212"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="6248">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="6280">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="27"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="6312">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="142"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="6344">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="177"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="27"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="6388">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="6418">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="116"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="6450">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="131"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="6482">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="6514">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="28"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="6546">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="134"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="6578">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="168"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="28"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="6622">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="6652">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="121"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="6684">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="112"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="6716">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="6748">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="29"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="6780">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="135"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="6812">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="156"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="29"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="6856">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="6886">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="47"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="6918">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="52"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="6950">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="6982">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="30"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="7014">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="57"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="7046">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="108"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="30"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="7090">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="7120">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="116"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="7152">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="340"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="7184">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="7216">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="31"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="7248">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="130"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="7280">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="175"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="31"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="7324">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="7354">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="72"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="7386">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="334"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="7418">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="7450">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="32"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="7482">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="82"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="7514">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="176"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="32"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="7558">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="7588">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="49"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="7620">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="424"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="7652">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="7684">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="34"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="7716">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="66"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="7748">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="176"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="34"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="7792">
+                            <group eventID="4" id="-1">
+                                <set-xy comment="false" x="48" y="7822">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="22"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="7854">
+                                    <get-val-174-35 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="434"/>
+                                </set-xy>
+                                <set-opacity comment="false" x="48" y="7886">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                                <setanim comment="false" x="48" y="7918">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="35"/>
+                                </setanim>
+                                <set-xy comment="false" x="48" y="7950">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="32"/>
+                                </set-xy>
+                                <set-xy comment="false" x="48" y="7982">
+                                    <get-val-174-36 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="176"/>
+                                </set-xy>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="35"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-5 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="4" id="-1"/>
+</groups>

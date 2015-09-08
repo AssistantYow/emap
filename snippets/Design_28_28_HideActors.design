@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="2" id="0">
+        <step comment="false" x="106" y="53">
+            <group eventID="2" id="-1">
+                <if comment="false" x="117" y="78">
+                    <group eventID="2" id="-1">
+                        <set-game-val-3 comment="false" x="128" y="111">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-3>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </amousestate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <draw comment="false" x="108" y="51">
+            <group eventID="3" id="-1">
+                <if comment="false" x="119" y="76">
+                    <group eventID="3" id="-1">
+                        <set-opacity comment="false" x="130" y="106">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="130" y="133">
+                            <ACTOR eid="var" id="0" vid="2"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <else comment="false" x="119" y="172">
+                    <group eventID="3" id="-1">
+                        <set-opacity comment="false" x="130" y="192">
+                            <ACTOR eid="var" id="0" vid="1"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="130" y="219">
+                            <ACTOR eid="var" id="0" vid="2"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                    </group>
+                </else>
+            </group>
+        </draw>
+    </group>
+    <group eventID="3" id="-1"/>
+</groups>

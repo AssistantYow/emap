@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="8" desc="" eventsnippetid="5" extheight="544" extwidth="384" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="1" name="MamburaoCampus" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="320">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="7" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,175,175" id="8" locked="false" name="back" opacity="100" order="6" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="4" locked="false" name="title" opacity="100" order="5" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="0,255,0" id="2" locked="false" name="destination" opacity="100" order="4" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="255,200,0" id="3" locked="false" name="116" opacity="100" order="3" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="255,0,255" id="7" locked="false" name="Walker" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="0,0,255" id="5" locked="false" name="destinationview" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="255,255,0" id="6" locked="false" name="destination buttons" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="21" name="Map_Mamburao 1" sx="0.99382716" sy="0.964" x="-3" y="-9" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="29" name="title_mamburao 4" sx="1.0" sy="1.0" x="5" y="7" z="4"/>
+        <actor a="0.0" aid="13" c="false" group="3" id="31" name="Destinations 13" sx="1.097902" sy="0.91943127" x="15" y="37" z="5"/>
+        <actor a="0.0" aid="17" c="false" group="3" id="33" name="btn116 17" sx="1.0" sy="1.0" x="10" y="64" z="6"/>
+        <actor a="0.0" aid="16" c="true" group="3" id="23" name="btn_Destination 16" sx="1.0" sy="1.0" x="212" y="20" z="2">
+            <snippets>
+                <s enabled="true" id="17"/>
+                <s enabled="true" id="18">
+                    <prop id="1" list="0" val="13"/>
+                    <prop id="2" list="0" val="17"/>
+                    <prop id="3" list="0" val="52"/>
+                    <prop id="4" list="0" val="18"/>
+                    <prop id="5" list="0" val="19"/>
+                    <prop id="6" list="0" val="20"/>
+                    <prop id="7" list="0" val="21"/>
+                    <prop id="8" list="0" val="22"/>
+                    <prop id="9" list="0" val="23"/>
+                    <prop id="10" list="0" val="24"/>
+                    <prop id="11" list="0" val="25"/>
+                    <prop id="12" list="0" val="26"/>
+                    <prop id="13" list="0" val="27"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="15" list="0" val="28"/>
+                    <prop id="17" list="0" val="30"/>
+                    <prop id="16" list="0" val="29"/>
+                    <prop id="19" list="0" val="33"/>
+                    <prop id="18" list="0" val="31"/>
+                    <prop id="21" list="0" val="35"/>
+                    <prop id="20" list="0" val="34"/>
+                    <prop id="23" list="0" val="37"/>
+                    <prop id="22" list="0" val="36"/>
+                    <prop id="25" list="0" val="39"/>
+                    <prop id="24" list="0" val="38"/>
+                    <prop id="27" list="0" val="41"/>
+                    <prop id="26" list="0" val="40"/>
+                    <prop id="29" list="0" val="43"/>
+                    <prop id="28" list="0" val="42"/>
+                    <prop id="31" list="0" val="45"/>
+                    <prop id="30" list="0" val="44"/>
+                    <prop id="34" list="0" val="49"/>
+                    <prop id="35" list="0" val="48"/>
+                    <prop id="32" list="0" val="46"/>
+                    <prop id="33" list="0" val="47"/>
+                    <prop id="36" list="0" val="32"/>
+                    <prop id="37" list="0" val="51"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="19" c="false" group="3" id="41" name="btn114 19" sx="1.0" sy="1.0" x="10" y="106" z="6"/>
+        <actor a="0.0" aid="18" c="true" group="3" id="39" name="btn115 18" sx="1.0" sy="1.0" x="10" y="85" z="6">
+            <snippets>
+                <s enabled="true" id="26">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="89">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="31"/>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="21" c="false" group="3" id="45" name="btn112 21" sx="1.0" sy="1.0" x="10" y="148" z="6"/>
+        <actor a="0.0" aid="20" c="false" group="3" id="43" name="btn113 20" sx="1.0" sy="1.0" x="10" y="127" z="6"/>
+        <actor a="0.0" aid="23" c="false" group="3" id="49" name="btn110 23" sx="1.0" sy="1.0" x="10" y="190" z="6"/>
+        <actor a="0.0" aid="22" c="false" group="3" id="47" name="btn111 22" sx="1.0" sy="1.0" x="10" y="169" z="6"/>
+        <actor a="0.0" aid="25" c="false" group="3" id="53" name="btn108 25" sx="1.0" sy="1.0" x="10" y="232" z="6"/>
+        <actor a="0.0" aid="24" c="false" group="3" id="51" name="btn109 24" sx="1.0" sy="1.0" x="10" y="211" z="6"/>
+        <actor a="0.0" aid="27" c="false" group="3" id="57" name="btn106 27" sx="1.0" sy="1.0" x="10" y="274" z="6"/>
+        <actor a="0.0" aid="26" c="false" group="3" id="55" name="btn107 26" sx="1.0" sy="1.0" x="10" y="253" z="6"/>
+        <actor a="0.0" aid="29" c="false" group="3" id="61" name="btn103 29" sx="1.0" sy="1.0" x="10" y="316" z="6"/>
+        <actor a="0.0" aid="28" c="false" group="3" id="59" name="btn104 28" sx="1.0" sy="1.0" x="10" y="295" z="6"/>
+        <actor a="0.0" aid="31" c="false" group="3" id="65" name="btn101 31" sx="1.0" sy="1.0" x="10" y="358" z="6"/>
+        <actor a="0.0" aid="30" c="false" group="3" id="63" name="btn102 30" sx="1.0" sy="1.0" x="10" y="337" z="6"/>
+        <actor a="0.0" aid="34" c="false" group="3" id="83" name="btnAdm 34" sx="1.0" sy="1.0" x="165" y="85" z="6"/>
+        <actor a="0.0" aid="35" c="false" group="3" id="99" name="btnCM 35" sx="1.0" sy="1.0" x="165" y="106" z="6"/>
+        <actor a="0.0" aid="32" c="false" group="3" id="67" name="btnNR 32" sx="1.0" sy="1.0" x="10" y="379" z="6"/>
+        <actor a="0.0" aid="33" c="false" group="3" id="77" name="btnAO 33" sx="1.0" sy="1.0" x="165" y="64" z="6"/>
+        <actor a="0.0" aid="38" c="false" group="3" id="97" name="btncomlab 38" sx="1.0" sy="1.0" x="165" y="169" z="6"/>
+        <actor a="0.0" aid="39" c="false" group="3" id="69" name="btnCR 39" sx="1.0" sy="1.0" x="165" y="190" z="6"/>
+        <actor a="0.0" aid="36" c="false" group="3" id="79" name="btnCO 36" sx="1.0" sy="1.0" x="165" y="127" z="6"/>
+        <actor a="0.0" aid="37" c="false" group="3" id="81" name="btnCG 37" sx="1.0" sy="1.0" x="165" y="148" z="6"/>
+        <actor a="0.0" aid="42" c="false" group="3" id="85" name="btnFac 42" sx="1.0" sy="1.0" x="165" y="253" z="6"/>
+        <actor a="0.0" aid="43" c="false" group="3" id="87" name="btnGYM 43" sx="1.0" sy="1.0" x="165" y="274" z="6"/>
+        <actor a="0.0" aid="40" c="false" group="3" id="73" name="btnCRF 40" sx="1.0" sy="1.0" x="165" y="211" z="6"/>
+        <actor a="0.0" aid="41" c="false" group="3" id="71" name="btnCRM 41" sx="1.0" sy="1.0" x="165" y="232" z="6"/>
+        <actor a="0.0" aid="46" c="false" group="3" id="101" name="btnlib 46" sx="1.0" sy="1.0" x="165" y="337" z="6"/>
+        <actor a="0.0" aid="47" c="false" group="3" id="89" name="btnRO 47" sx="1.0" sy="1.0" x="165" y="358" z="6"/>
+        <actor a="0.0" aid="44" c="false" group="3" id="93" name="btnlab1 44" sx="1.0" sy="1.0" x="165" y="295" z="6"/>
+        <actor a="0.0" aid="45" c="false" group="3" id="95" name="btnlab2 45" sx="1.0" sy="1.0" x="165" y="316" z="6"/>
+        <actor a="0.0" aid="51" c="false" group="3" id="141" name="walker 51" sx="1.0" sy="1.0" x="249" y="391" z="7"/>
+        <actor a="0.0" aid="50" c="false" group="3" id="143" name="Back 50" sx="0.51785713" sy="0.6818182" x="229" y="441" z="8"/>
+        <actor a="0.0" aid="49" c="false" group="3" id="75" name="btnSSG 49" sx="1.0" sy="1.0" x="165" y="379" z="6"/>
+        <actor a="0.0" aid="48" c="false" group="3" id="91" name="btnSR 48" sx="1.0" sy="1.0" x="165" y="400" z="6"/>
+        <actor a="0.0" aid="53" c="false" group="3" id="227" name="btnMB_ViewDetail 53" sx="1.0" sy="1.0" x="215" y="58" z="2"/>
+        <actor a="0.0" aid="52" c="false" group="3" id="25" name="path116 52" sx="1.0" sy="0.97619045" x="128" y="387" z="2"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="6" desc="" eventsnippetid="65" extheight="544" extwidth="384" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="2" name="SablayanCampus" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="320">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="map" opacity="100" order="5" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="255,255,0" id="5" locked="false" name="path" opacity="100" order="4" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="64,64,64" id="4" locked="false" name="walker" opacity="100" order="3" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="0,0,255" id="1" locked="false" name="title" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="2" locked="false" name="destination" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="255,200,0" id="3" locked="false" name="buttons" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="3" id="105" name="Map 1" sx="1.0" sy="0.968" x="-2" y="-9" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="3" id="139" name="title 3" sx="1.0" sy="1.0" x="-2" y="12" z="1"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="119" name="btn_7 5" sx="1.0" sy="1.0" x="14" y="71" z="3"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="117" name="btn_6 6" sx="1.0" sy="1.0" x="14" y="96" z="3"/>
+        <actor a="0.0" aid="7" c="false" group="3" id="115" name="btn_5 7" sx="1.0" sy="1.0" x="14" y="121" z="3"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="113" name="btn_4 8" sx="1.0" sy="1.0" x="14" y="146" z="3"/>
+        <actor a="0.0" aid="9" c="false" group="3" id="111" name="btn_3 9" sx="1.0" sy="1.0" x="14" y="171" z="3"/>
+        <actor a="0.0" aid="10" c="false" group="3" id="123" name="btn_c 10" sx="1.0" sy="1.0" x="160" y="71" z="3"/>
+        <actor a="0.0" aid="11" c="false" group="3" id="125" name="btn_crf 11" sx="1.0" sy="1.0" x="14" y="197" z="3"/>
+        <actor a="0.0" aid="12" c="false" group="3" id="127" name="btn_crime 12" sx="1.0" sy="1.0" x="160" y="96" z="3"/>
+        <actor a="0.0" aid="13" c="false" group="3" id="129" name="btn_crm 13" sx="1.0" sy="1.0" x="14" y="222" z="3"/>
+        <actor a="0.0" aid="14" c="false" group="3" id="121" name="btn_gh 14" sx="1.0" sy="1.0" x="160" y="121" z="3"/>
+        <actor a="0.0" aid="15" c="false" group="3" id="131" name="btn_it 15" sx="1.0" sy="1.0" x="160" y="147" z="3"/>
+        <actor a="0.0" aid="17" c="false" group="3" id="137" name="btn_ted 17" sx="1.0" sy="1.0" x="160" y="197" z="3"/>
+        <actor a="0.0" aid="16" c="false" group="3" id="135" name="btn_sb 16" sx="1.0" sy="1.0" x="160" y="172" z="3"/>
+        <actor a="0.0" aid="19" c="false" group="3" id="143" name="Back 19" sx="0.51785713" sy="0.6818182" x="229" y="441" z="3"/>
+        <actor a="0.0" aid="18" c="true" group="3" id="107" name="btnDestination 18" sx="1.0" sy="1.0" x="215" y="20" z="1">
+            <snippets>
+                <s enabled="true" id="84">
+                    <prop id="1" list="0" val="20"/>
+                    <prop id="2" list="0" val="9"/>
+                    <prop id="3" list="0" val="8"/>
+                    <prop id="4" list="0" val="7"/>
+                    <prop id="5" list="0" val="6"/>
+                    <prop id="6" list="0" val="5"/>
+                    <prop id="7" list="0" val="11"/>
+                    <prop id="8" list="0" val="13"/>
+                    <prop id="9" list="0" val="10"/>
+                    <prop id="10" list="0" val="12"/>
+                    <prop id="11" list="0" val="14"/>
+                    <prop id="12" list="0" val="15"/>
+                    <prop id="13" list="0" val="16"/>
+                    <prop id="14" list="0" val="17"/>
+                    <prop id="15" list="0" val="22"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="16" list="0" val="21"/>
+                </s>
+                <s enabled="true" id="67"/>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="21" c="false" group="3" id="145" name="path 21" sx="1.0" sy="1.0" x="53" y="88" z="5"/>
+        <actor a="0.0" aid="20" c="false" group="3" id="109" name="Destinationss 20" sx="1.0839161" sy="0.57345974" x="15" y="-36" z="2"/>
+        <actor a="0.0" aid="23" c="false" group="3" id="229" name="btnSBY_ViewDetail 23" sx="1.0" sy="1.0" x="216" y="57" z="1"/>
+        <actor a="0.0" aid="22" c="false" group="3" id="141" name="walker 22" sx="1.0" sy="1.0" x="50" y="60" z="4"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+    <atlases members="0,1,2,3," retainAtlases="false"/>
+</scene>

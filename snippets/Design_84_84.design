@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="78">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                        </setanim>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <amousestate comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="3"/>
+                        </amousestate>
+                    </not>
+                </if>
+                <if comment="false" x="26" y="117">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="150">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="2"/>
+                        </setanim>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="3"/>
+                    </amousestate>
+                </if>
+                <if comment="false" x="26" y="189">
+                    <group eventID="1" id="-1">
+                        <set-opacity comment="false" x="37" y="219">
+                            <get-val-84-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="251">
+                            <get-val-84-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="283">
+                            <get-val-84-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="315">
+                            <get-val-84-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="347">
+                            <get-val-84-6 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="379">
+                            <get-val-84-7 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="411">
+                            <get-val-84-8 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="443">
+                            <get-val-84-9 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="475">
+                            <get-val-84-10 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="507">
+                            <get-val-84-11 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="539">
+                            <get-val-84-12 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="571">
+                            <get-val-84-13 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="603">
+                            <get-val-84-15 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="635">
+                            <get-val-84-16 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="667">
+                            <get-val-84-17 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="699">
+                            <get-val-84-18 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="731">
+                            <get-val-84-20 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="763">
+                            <get-val-84-19 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="795">
+                            <get-val-84-23 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="827">
+                            <get-val-84-21 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="859">
+                            <get-val-84-22 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="891">
+                            <get-val-84-24 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="923">
+                            <get-val-84-25 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="955">
+                            <get-val-84-26 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="987">
+                            <get-val-84-27 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1019">
+                            <get-val-84-28 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1051">
+                            <get-val-84-29 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1083">
+                            <get-val-84-30 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1115">
+                            <get-val-84-31 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1147">
+                            <get-val-84-32 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1179">
+                            <get-val-84-36 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1211">
+                            <get-val-84-33 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1243">
+                            <get-val-84-35 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1275">
+                            <get-val-84-34 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </set-opacity>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+                <else comment="false" x="26" y="1319">
+                    <group eventID="1" id="-1">
+                        <set-opacity comment="false" x="37" y="1339">
+                            <ACTOR eid="var" id="0" vid="3"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1366">
+                            <get-val-84-1 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1398">
+                            <get-val-84-2 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1430">
+                            <get-val-84-4 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1462">
+                            <get-val-84-5 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1494">
+                            <get-val-84-6 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1526">
+                            <get-val-84-7 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1558">
+                            <get-val-84-8 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1590">
+                            <get-val-84-9 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1622">
+                            <get-val-84-10 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1654">
+                            <get-val-84-11 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1686">
+                            <get-val-84-12 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1718">
+                            <get-val-84-13 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1750">
+                            <get-val-84-15 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1782">
+                            <get-val-84-16 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1814">
+                            <get-val-84-17 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1846">
+                            <get-val-84-18 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1878">
+                            <get-val-84-20 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1910">
+                            <get-val-84-19 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1942">
+                            <get-val-84-23 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="1974">
+                            <get-val-84-21 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2006">
+                            <get-val-84-22 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2038">
+                            <get-val-84-24 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2070">
+                            <get-val-84-25 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2102">
+                            <get-val-84-26 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2134">
+                            <get-val-84-27 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2166">
+                            <get-val-84-28 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2198">
+                            <get-val-84-29 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2230">
+                            <get-val-84-30 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2262">
+                            <get-val-84-31 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2294">
+                            <get-val-84-32 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2326">
+                            <get-val-84-33 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2358">
+                            <get-val-84-36 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2390">
+                            <get-val-84-35 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                        <set-opacity comment="false" x="37" y="2422">
+                            <get-val-84-34 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="0"/>
+                        </set-opacity>
+                    </group>
+                </else>
+                <if comment="false" x="26" y="2466">
+                    <group eventID="1" id="-1">
+                        <if comment="false" x="37" y="2496">
+                            <group eventID="1" id="-1">
+                                <set-opacity comment="false" x="48" y="2526">
+                                    <ACTOR eid="var" id="0" vid="3"/>
+                                    <int id="1" val="100"/>
+                                </set-opacity>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="116"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-5 comment="false" id="0" x="0" y="0"/>
+                        <true comment="false" id="1" x="0" y="0"/>
+                    </eq>
+                </if>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <step comment="false" x="71" y="32">
+            <group eventID="2" id="-1">
+                <if comment="false" x="82" y="57">
+                    <group eventID="2" id="-1">
+                        <if comment="false" x="93" y="90">
+                            <group eventID="2" id="-1">
+                                <set-game-val-0 comment="false" x="104" y="120">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-0>
+                                <set-game-val-3 comment="false" x="104" y="145">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-3>
+                                <set-game-val-5 comment="false" x="104" y="170">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-5>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <true comment="false" id="1" x="0" y="0"/>
+                            </eq>
+                        </if>
+                        <else comment="false" x="93" y="207">
+                            <group eventID="2" id="-1">
+                                <set-game-val-0 comment="false" x="104" y="227">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-0>
+                                <set-game-val-3 comment="false" x="104" y="252">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-3>
+                                <set-game-val-5 comment="false" x="104" y="277">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-5>
+                            </group>
+                        </else>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </amousestate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

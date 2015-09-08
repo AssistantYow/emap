@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <step comment="false" x="0" y="0">
+            <group eventID="1" id="-1">
+                <if comment="false" x="11" y="25">
+                    <group eventID="1" id="-1">
+                        <if comment="false" x="22" y="58">
+                            <group eventID="1" id="-1">
+                                <set-game-val-3 comment="false" x="33" y="96">
+                                    <false comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-3>
+                                <set-game-val-5 comment="false" x="33" y="121">
+                                    <true comment="false" id="0" x="0" y="0"/>
+                                </set-game-val-5>
+                                <set-game-val-4 comment="false" x="33" y="146">
+                                    <int id="0" val="114"/>
+                                </set-game-val-4>
+                                <set-game-val-6 comment="false" x="33" y="166">
+                                    <int id="0" val="Room 114"/>
+                                </set-game-val-6>
+                                <set-game-val-7 comment="false" x="33" y="186">
+                                    <int id="0" val="No Description Yet"/>
+                                </set-game-val-7>
+                                <set-game-val-8 comment="false" x="33" y="206">
+                                    <int id="0" val="114"/>
+                                </set-game-val-8>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <get-opacity comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                </get-opacity>
+                                <int id="1" val="100"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <amousestate comment="false" id="0" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </amousestate>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

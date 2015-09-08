@@ -1,0 +1,15 @@
+#
+#Mon Aug 10 10:08:23 CST 2015
+style=bold
+alphabet=
+color=\#000000
+shadow.y=0
+family=Monospaced
+shadow.x=0
+shadow.color=\#000000
+gradient.offset=0
+shadow.blur=0
+chars=all
+stroke.size=0
+antialias=true
+size=30

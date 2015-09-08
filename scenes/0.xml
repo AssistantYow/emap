@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="6" desc="" eventsnippetid="0" extheight="520" extwidth="360" extx="-20" exty="-20" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="0" name="MainMenu" revision="" savecount="0" tiled="1" tileh="20" tilew="20" type="standard" width="320">
+    <layers>
+        <color-bg blue="225" green="196" red="178"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="logo" opacity="100" order="5" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,0,255" id="1" locked="false" name="main" opacity="100" order="4" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="2" locked="false" name="labangan" opacity="100" order="3" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,200,0" id="3" locked="false" name="murtha" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="4" locked="false" name="sablayan" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="255,255,0" id="5" locked="false" name="mamburao" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="17" c="true" group="3" id="4" name="btn_MamburaoCampus 17" sx="1.0" sy="1.0" x="20" y="415" z="5">
+            <snippets>
+                <s enabled="true" id="3"/>
+                <s enabled="true" id="4">
+                    <prop id="1" list="0" val="1"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="16" c="true" group="3" id="16" name="btn_SablayanCampus 16" sx="1.0" sy="1.0" x="20" y="375" z="4">
+            <snippets>
+                <s enabled="true" id="10"/>
+                <s enabled="true" id="15">
+                    <prop id="1" list="0" val="2"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="2" c="false" group="3" id="2" name="BG 2" sx="0.79012346" sy="0.8051948" x="26" y="65" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="3" id="455" name="btn_LabanganCampusB 18" sx="1.0" sy="1.0" x="20" y="296" z="2"/>
+        <actor a="0.0" aid="12" c="false" group="3" id="18" name="aTitle 12" sx="0.9411765" sy="1.0" x="-4" y="35" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="3" id="8" name="btn_MainCampus 13" sx="1.0" sy="1.0" x="20" y="218" z="1"/>
+        <actor a="0.0" aid="14" c="false" group="3" id="12" name="btn_LabanganCampus 14" sx="1.0" sy="1.0" x="20" y="257" z="2"/>
+        <actor a="0.0" aid="15" c="false" group="3" id="14" name="btn_MurthaCampus 15" sx="1.0" sy="1.0" x="20" y="335" z="3"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>

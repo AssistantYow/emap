@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<game accelFramerate="0" adsPosition="0" aheight="480" airCert="" airPass="" androidAlias="" androidCert="" androidMinVersion="0" androidPassword="" androidPublicKey="" androidTargetVersion="7" antialias="true" appName="EMAP" appType="0" atlasBindingDefault="true" author="" authorURL="" autoRotate="false" awidth="320" backgroundColor="-15592942" barBackgroundColor="-12303292" barColor="-7829368" barHeight="8" barLocation="0" barOffsetX="0" barOffsetXPhone="0" barOffsetXTablet="0" barOffsetY="0" barOffsetYPhone="0" barOffsetYTablet="0" barScalePhone="1.0" barScaleTablet="2.0" barWidth="120" bindAllAtlasesDefault="true" borderColor="-12303292" borderThickness="2" bundleID="com.yourname.gamename" bundleVersion="1.0" checksum="none" cpmID="" cws-desc="Description" cws-icon128="" cws-icon16="" cws-name="Name" cws-version="1.0" default="0" defaultFramerate="60" defaultSceneID="0" desc="" desktopScale="1x" desktopScaleMode="1" deviceOS="4.3" disableBackButton="false" enableGPG="false" enablePurchases="false" engine="0" format="3.4.0" gameid="-1" googleAppID="" haxeExtras="" height="480" internalVersion="1" internalVersionIOS="1" kit="false" lockURL="" macBundleID="" maxScaleAndroid="4x" maxScaleDesktop="4x" maxScaleIOS="4x" maxScaleWeb="4x" metroColor="-12566464" mochi="" multitouch="true" name="EMap_0829A" ngID="" ngKey="" openflExtras="" orientation="0" p12="" p12pwd="" physicsMode="0" pixelsnap="false" preloaderstyle="0" products="" prov-adhoc="" prov-store="" scale="1" scaleModeAndroid="0" scaleModeDesktop="0" scaleModeIOS="0" scaleModeWeb="0" showAds="false" simulatorOS="4.3" splashStyle="0" startInFullScreenDesktop="false" startInFullScreenWeb="false" swfHeight="0" swfWidth="0" swfX="0" swfY="0" swfloc="" useGlossyIcon="false" webScale="1x" whirlKey="" width="320" windowsAppName="" windowsAuthor="" windowsBundleID="">
+    <exts>
+        <e enabled="false" id="test-native"/>
+        <e enabled="false" id="test"/>
+        <e enabled="false" id="test-flash"/>
+        <e enabled="false" id="label"/>
+        <e enabled="true" id="2DList"/>
+        <e enabled="false" id="tileapi"/>
+    </exts>
+    <scales>
+        <scale detailed="1x" id="0" name="1x" size="1.0"/>
+        <scale detailed="1.5x" id="1" name="1.5x" size="1.5"/>
+        <scale detailed="2x" id="2" name="2x" size="2.0"/>
+        <scale detailed="3x" id="3" name="3x" size="3.0"/>
+        <scale detailed="4x" id="4" name="4x" size="4.0"/>
+    </scales>
+    <projectScales>
+        <scale enabled="true" name="1x"/>
+        <scale enabled="true" name="1.5x"/>
+        <scale enabled="true" name="2x"/>
+        <scale enabled="false" name="3x"/>
+        <scale enabled="true" name="4x"/>
+    </projectScales>
+    <webScales>
+        <scale enabled="true" name="1x"/>
+        <scale enabled="true" name="1.5x"/>
+        <scale enabled="true" name="2x"/>
+        <scale enabled="false" name="3x"/>
+        <scale enabled="true" name="4x"/>
+    </webScales>
+    <desktopScales>
+        <scale enabled="true" name="1x"/>
+        <scale enabled="true" name="1.5x"/>
+        <scale enabled="true" name="2x"/>
+        <scale enabled="false" name="3x"/>
+        <scale enabled="true" name="4x"/>
+    </desktopScales>
+    <iOSScales>
+        <scale enabled="true" name="1x"/>
+        <scale enabled="true" name="1.5x"/>
+        <scale enabled="true" name="2x"/>
+        <scale enabled="false" name="3x"/>
+        <scale enabled="true" name="4x"/>
+    </iOSScales>
+    <androidScales>
+        <scale enabled="true" name="1x"/>
+        <scale enabled="true" name="1.5x"/>
+        <scale enabled="true" name="2x"/>
+        <scale enabled="false" name="3x"/>
+        <scale enabled="true" name="4x"/>
+    </androidScales>
+    <folders>
+        <group desc="" id="0" name="MainMenu" type="actor">
+            <r id="16"/>
+            <r id="2"/>
+            <r id="18"/>
+            <r id="4"/>
+            <r id="143"/>
+            <r id="8"/>
+            <r id="455"/>
+            <r id="12"/>
+            <r id="14"/>
+        </group>
+        <group desc="" id="1" name="MamburaoCampus" type="actor">
+            <r id="69"/>
+            <r id="71"/>
+            <r id="65"/>
+            <r id="67"/>
+            <r id="77"/>
+            <r id="79"/>
+            <r id="73"/>
+            <r id="75"/>
+            <r id="85"/>
+            <r id="87"/>
+            <r id="21"/>
+            <r id="81"/>
+            <r id="83"/>
+            <r id="23"/>
+            <r id="93"/>
+            <r id="25"/>
+            <r id="95"/>
+            <r id="89"/>
+            <r id="29"/>
+            <r id="91"/>
+            <r id="31"/>
+            <r id="101"/>
+            <r id="33"/>
+            <r id="99"/>
+            <r id="39"/>
+            <r id="97"/>
+            <r id="43"/>
+            <r id="41"/>
+            <r id="47"/>
+            <r id="45"/>
+            <r id="51"/>
+            <r id="49"/>
+            <r id="55"/>
+            <r id="53"/>
+            <r id="59"/>
+            <r id="57"/>
+            <r id="63"/>
+            <r id="61"/>
+        </group>
+        <group desc="" id="2" name="MainMenu_b" type="snippet">
+            <r id="425"/>
+            <r id="87"/>
+            <r id="4"/>
+            <r id="13"/>
+            <r id="14"/>
+            <r id="15"/>
+        </group>
+        <group desc="" id="3" name="MamburaoCampus_b" type="snippet">
+            <r id="18"/>
+            <r id="93"/>
+            <r id="92"/>
+            <r id="27"/>
+            <r id="95"/>
+            <r id="94"/>
+            <r id="89"/>
+            <r id="91"/>
+            <r id="90"/>
+            <r id="102"/>
+            <r id="103"/>
+            <r id="100"/>
+            <r id="101"/>
+            <r id="98"/>
+            <r id="99"/>
+            <r id="96"/>
+            <r id="97"/>
+            <r id="110"/>
+            <r id="111"/>
+            <r id="108"/>
+            <r id="109"/>
+            <r id="106"/>
+            <r id="107"/>
+            <r id="104"/>
+            <r id="105"/>
+            <r id="119"/>
+            <r id="118"/>
+            <r id="117"/>
+            <r id="116"/>
+            <r id="115"/>
+            <r id="114"/>
+            <r id="113"/>
+            <r id="112"/>
+            <r id="120"/>
+        </group>
+        <group desc="" id="4" name="SablayanCampus" type="actor">
+            <r id="137"/>
+            <r id="139"/>
+            <r id="129"/>
+            <r id="111"/>
+            <r id="131"/>
+            <r id="109"/>
+            <r id="133"/>
+            <r id="107"/>
+            <r id="135"/>
+            <r id="105"/>
+            <r id="119"/>
+            <r id="117"/>
+            <r id="115"/>
+            <r id="113"/>
+            <r id="127"/>
+            <r id="145"/>
+            <r id="125"/>
+            <r id="123"/>
+            <r id="121"/>
+        </group>
+        <group desc="" id="5" name="SablayanCampus_b" type="snippet">
+            <r id="129"/>
+            <r id="128"/>
+            <r id="130"/>
+            <r id="133"/>
+            <r id="132"/>
+            <r id="135"/>
+            <r id="134"/>
+            <r id="84"/>
+            <r id="127"/>
+            <r id="126"/>
+            <r id="125"/>
+            <r id="124"/>
+            <r id="123"/>
+            <r id="122"/>
+        </group>
+        <group desc="" id="6" name="MurthaCampus" type="actor">
+            <r id="205"/>
+            <r id="207"/>
+            <r id="201"/>
+            <r id="203"/>
+            <r id="197"/>
+            <r id="199"/>
+            <r id="193"/>
+            <r id="195"/>
+            <r id="153"/>
+            <r id="221"/>
+            <r id="155"/>
+            <r id="217"/>
+            <r id="157"/>
+            <r id="219"/>
+            <r id="159"/>
+            <r id="213"/>
+            <r id="215"/>
+            <r id="147"/>
+            <r id="209"/>
+            <r id="149"/>
+            <r id="211"/>
+            <r id="151"/>
+            <r id="171"/>
+            <r id="169"/>
+            <r id="175"/>
+            <r id="173"/>
+            <r id="163"/>
+            <r id="161"/>
+            <r id="167"/>
+            <r id="165"/>
+            <r id="187"/>
+            <r id="185"/>
+            <r id="191"/>
+            <r id="189"/>
+            <r id="179"/>
+            <r id="177"/>
+            <r id="183"/>
+            <r id="181"/>
+        </group>
+        <group desc="" id="7" name="MurthaCampus_b" type="snippet">
+            <r id="205"/>
+            <r id="204"/>
+            <r id="207"/>
+            <r id="206"/>
+            <r id="201"/>
+            <r id="200"/>
+            <r id="203"/>
+            <r id="202"/>
+            <r id="197"/>
+            <r id="196"/>
+            <r id="199"/>
+            <r id="198"/>
+            <r id="193"/>
+            <r id="192"/>
+            <r id="195"/>
+            <r id="194"/>
+            <r id="212"/>
+            <r id="213"/>
+            <r id="214"/>
+            <r id="215"/>
+            <r id="208"/>
+            <r id="209"/>
+            <r id="210"/>
+            <r id="211"/>
+            <r id="174"/>
+            <r id="186"/>
+            <r id="187"/>
+            <r id="184"/>
+            <r id="185"/>
+            <r id="190"/>
+            <r id="191"/>
+            <r id="188"/>
+            <r id="189"/>
+            <r id="182"/>
+            <r id="183"/>
+        </group>
+        <group desc="" id="8" name="RoomDetails" type="actor">
+            <r id="237"/>
+            <r id="223"/>
+            <r id="235"/>
+            <r id="233"/>
+            <r id="231"/>
+            <r id="229"/>
+            <r id="227"/>
+            <r id="225"/>
+        </group>
+        <group desc="" id="9" name="ViewDetails" type="scene">
+            <r id="4"/>
+            <r id="5"/>
+            <r id="6"/>
+        </group>
+        <group desc="" id="10" name="LabanganACampus" type="actor">
+            <r id="275"/>
+            <r id="273"/>
+            <r id="339"/>
+            <r id="279"/>
+            <r id="337"/>
+            <r id="277"/>
+            <r id="283"/>
+            <r id="281"/>
+            <r id="287"/>
+            <r id="285"/>
+            <r id="327"/>
+            <r id="259"/>
+            <r id="325"/>
+            <r id="257"/>
+            <r id="323"/>
+            <r id="263"/>
+            <r id="321"/>
+            <r id="261"/>
+            <r id="335"/>
+            <r id="267"/>
+            <r id="333"/>
+            <r id="265"/>
+            <r id="331"/>
+            <r id="271"/>
+            <r id="329"/>
+            <r id="269"/>
+            <r id="305"/>
+            <r id="239"/>
+            <r id="311"/>
+            <r id="313"/>
+            <r id="315"/>
+            <r id="317"/>
+            <r id="319"/>
+            <r id="289"/>
+            <r id="255"/>
+            <r id="291"/>
+            <r id="253"/>
+            <r id="251"/>
+            <r id="293"/>
+            <r id="249"/>
+            <r id="295"/>
+            <r id="247"/>
+            <r id="297"/>
+            <r id="245"/>
+            <r id="243"/>
+            <r id="301"/>
+            <r id="241"/>
+            <r id="303"/>
+        </group>
+        <group desc="" id="11" name="LabanganACampus_b" type="snippet">
+            <r id="275"/>
+            <r id="274"/>
+            <r id="273"/>
+            <r id="272"/>
+            <r id="279"/>
+            <r id="278"/>
+            <r id="277"/>
+            <r id="276"/>
+            <r id="283"/>
+            <r id="282"/>
+            <r id="281"/>
+            <r id="280"/>
+            <r id="287"/>
+            <r id="286"/>
+            <r id="285"/>
+            <r id="284"/>
+            <r id="259"/>
+            <r id="262"/>
+            <r id="263"/>
+            <r id="260"/>
+            <r id="261"/>
+            <r id="266"/>
+            <r id="267"/>
+            <r id="264"/>
+            <r id="265"/>
+            <r id="270"/>
+            <r id="271"/>
+            <r id="268"/>
+            <r id="269"/>
+            <r id="305"/>
+            <r id="304"/>
+            <r id="307"/>
+            <r id="306"/>
+            <r id="308"/>
+            <r id="313"/>
+            <r id="297"/>
+            <r id="298"/>
+            <r id="299"/>
+            <r id="300"/>
+            <r id="301"/>
+            <r id="302"/>
+            <r id="303"/>
+        </group>
+        <group desc="" id="12" name="LabanganBCampus" type="actor">
+            <r id="411"/>
+            <r id="409"/>
+            <r id="415"/>
+            <r id="413"/>
+            <r id="403"/>
+            <r id="401"/>
+            <r id="407"/>
+            <r id="405"/>
+            <r id="395"/>
+            <r id="393"/>
+            <r id="399"/>
+            <r id="397"/>
+            <r id="387"/>
+            <r id="385"/>
+            <r id="391"/>
+            <r id="389"/>
+            <r id="441"/>
+            <r id="443"/>
+            <r id="445"/>
+            <r id="447"/>
+            <r id="433"/>
+            <r id="435"/>
+            <r id="437"/>
+            <r id="439"/>
+            <r id="425"/>
+            <r id="427"/>
+            <r id="429"/>
+            <r id="431"/>
+            <r id="417"/>
+            <r id="419"/>
+            <r id="421"/>
+            <r id="423"/>
+            <r id="343"/>
+            <r id="341"/>
+            <r id="473"/>
+            <r id="351"/>
+            <r id="471"/>
+            <r id="349"/>
+            <r id="469"/>
+            <r id="347"/>
+            <r id="467"/>
+            <r id="345"/>
+            <r id="465"/>
+            <r id="463"/>
+            <r id="461"/>
+            <r id="459"/>
+            <r id="457"/>
+            <r id="453"/>
+            <r id="451"/>
+            <r id="449"/>
+            <r id="373"/>
+            <r id="375"/>
+            <r id="369"/>
+            <r id="371"/>
+            <r id="381"/>
+            <r id="383"/>
+            <r id="377"/>
+            <r id="379"/>
+            <r id="357"/>
+            <r id="359"/>
+            <r id="353"/>
+            <r id="355"/>
+            <r id="365"/>
+            <r id="367"/>
+            <r id="361"/>
+            <r id="363"/>
+        </group>
+        <group desc="" id="13" name="LabanganBCampus_b" type="snippet">
+            <r id="410"/>
+            <r id="411"/>
+            <r id="408"/>
+            <r id="409"/>
+            <r id="414"/>
+            <r id="415"/>
+            <r id="412"/>
+            <r id="413"/>
+            <r id="402"/>
+            <r id="403"/>
+            <r id="400"/>
+            <r id="401"/>
+            <r id="406"/>
+            <r id="407"/>
+            <r id="404"/>
+            <r id="405"/>
+            <r id="395"/>
+            <r id="394"/>
+            <r id="393"/>
+            <r id="392"/>
+            <r id="399"/>
+            <r id="398"/>
+            <r id="397"/>
+            <r id="396"/>
+            <r id="387"/>
+            <r id="386"/>
+            <r id="385"/>
+            <r id="384"/>
+            <r id="391"/>
+            <r id="390"/>
+            <r id="389"/>
+            <r id="388"/>
+            <r id="440"/>
+            <r id="441"/>
+            <r id="442"/>
+            <r id="443"/>
+            <r id="444"/>
+            <r id="436"/>
+            <r id="437"/>
+            <r id="438"/>
+            <r id="439"/>
+            <r id="417"/>
+            <r id="416"/>
+            <r id="419"/>
+            <r id="418"/>
+            <r id="420"/>
+            <r id="373"/>
+            <r id="372"/>
+            <r id="375"/>
+            <r id="374"/>
+            <r id="369"/>
+            <r id="368"/>
+            <r id="371"/>
+            <r id="370"/>
+            <r id="381"/>
+            <r id="380"/>
+            <r id="383"/>
+            <r id="382"/>
+            <r id="377"/>
+            <r id="376"/>
+            <r id="379"/>
+            <r id="378"/>
+        </group>
+    </folders>
+    <packs/>
+    <groups/>
+    <cgroups>
+        <cgroup g1="0" g2="1"/>
+        <cgroup g1="1" g2="3"/>
+        <cgroup g1="3" g2="3"/>
+    </cgroups>
+    <input>
+        <key id="0" keyname="UP" name="up" vk="38" vks="38"/>
+        <key id="1" keyname="DOWN" name="down" vk="40" vks="40"/>
+        <key id="2" keyname="LEFT" name="left" vk="37" vks="37"/>
+        <key id="3" keyname="RIGHT" name="right" vk="39" vks="39"/>
+        <key id="4" keyname="Z" name="action1" vk="90" vks="90"/>
+        <key id="5" keyname="X" name="action2" vk="88" vks="88"/>
+        <key id="6" keyname="ENTER" name="enter" vk="10" vks="10"/>
+    </input>
+    <attcats>
+        <cat id="-1" name="Default"/>
+    </attcats>
+    <props/>
+    <attributes>
+        <boolean cid="-1" id="3" name="ViewPath_Mamburao" save="true" value="false"/>
+        <boolean cid="-1" id="0" name="att_btnDestination" save="true" value="true"/>
+        <boolean cid="-1" id="5" name="btnPath_Clicked" save="true" value="false"/>
+        <text cid="-1" id="4" name="SelectedPath" save="true" value="zzzz"/>
+        <text cid="-1" id="6" name="RoomName" save="true" value="&lt;Room Name&gt;"/>
+        <text cid="-1" id="8" name="RoomImg" save="true" value="&lt;img&gt;"/>
+        <text cid="-1" id="7" name="RoomDesc" save="true" value="&lt;Room Desc&gt;"/>
+    </attributes>
+    <collisions>
+        <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="1" name="Rect Up" pts="0.0,0.0#0.0,0.5#1.0,0.5#1.0,0.0"/>
+        <poly id="2" name="Rect Down" pts="0.0,0.5#0.0,1.0#1.0,1.0#1.0,0.5"/>
+        <poly id="3" name="Rect Left" pts="0.0,0.0#0.0,1.0#0.5,1.0#0.5,0.0"/>
+        <poly id="4" name="Rect Right" pts="0.5,0.0#0.5,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="5" name="Tri 45R" pts="0.0,0.0#0.0,1.0#1.0,1.0"/>
+        <poly id="6" name="Tri 45L" pts="1.0,0.0#0.0,1.0#1.0,1.0"/>
+        <poly id="7" name="Tri 45R Inv" pts="0.0,0.0#0.0,1.0#1.0,0.0"/>
+        <poly id="8" name="Tri 45L Inv" pts="0.0,0.0#1.0,1.0#1.0,0.0"/>
+        <poly id="9" name="Tri 30R" pts="0.0,1.0#1.0,1.0#1.0,0.5"/>
+        <poly id="10" name="Tri 30L" pts="0.0,0.5#0.0,1.0#1.0,1.0"/>
+        <poly id="11" name="Tri 30-2R" pts="0.0,0.5#0.0,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="12" name="Tri 30-2L" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.5"/>
+        <poly id="13" name="Tri 30R Inv" pts="0.0,0.0#1.0,0.5#1.0,0.0"/>
+        <poly id="14" name="Tri 30L Inv" pts="0.0,0.0#0.0,0.5#1.0,0.0"/>
+        <poly id="15" name="Tri 30-2R Inv" pts="0.0,0.0#0.0,0.5#1.0,1.0#1.0,0.0"/>
+        <poly id="17" name="Tri 60R" pts="0.5,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="16" name="Tri 30-2L Inv" pts="0.0,0.0#0.0,1.0#1.0,0.5#1.0,0.0"/>
+        <poly id="19" name="Tri 60-2R" pts="0.5,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="18" name="Tri 60L" pts="0.0,0.0#0.0,1.0#0.5,1.0"/>
+        <poly id="21" name="Tri 60R Inv" pts="0.5,0.0#1.0,1.0#1.0,0.0"/>
+        <poly id="20" name="Tri 60-2L" pts="0.0,0.0#0.0,1.0#1.0,1.0#0.5,0.0"/>
+        <poly id="23" name="Tri 60-2R Inv" pts="0.0,0.0#0.5,1.0#1.0,1.0#1.0,0.0"/>
+        <poly id="22" name="Tri 60L Inv" pts="0.0,0.0#0.0,1.0#0.5,0.0"/>
+        <poly id="24" name="Tri 60-2L Inv" pts="0.0,0.0#0.0,1.0#0.5,1.0#1.0,0.0"/>
+    </collisions>
+    <autotileFormats/>
+    <atlases>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="2,4,8,12,14,16,18,21,23,25,29,31,33,39,43,41,47,45,51,49,55,53,59,57,63,61,69,71,65,67,77,79,73,75,85,87,81,83,93,95,89,91,101,99,97,111,109,107,105,119,117,115,113,127,125,123,121,137,139,141,143,129,131,133,135,153,155,157,159,145,147,149,151,171,169,175,173,163,161,167,165,187,185,191,189,179,177,183,181,205,207,201,203,197,199,193,195,221,223,217,219,213,215,209,211,239,237,235,233,231,229,227,225,255,253,251,249,247,245,243,241,275,273,279,277,283,281,287,285,259,257,263,261,267,265,271,269,305,311,313,315,317,319,289,291,293,295,297,301,303,343,341,339,337,351,349,347,345,327,325,323,321,335,333,331,329,373,375,369,371,381,383,377,379,357,359,353,355,365,367,361,363,411,409,415,413,403,401,407,405,395,393,399,397,387,385,391,389,441,443,445,447,433,435,437,439,425,427,429,431,417,419,421,423,473,471,469,467,465,463,461,459,457,455,453,451,449," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>
+    </atlases>
+    <libraries/>
+</game>
