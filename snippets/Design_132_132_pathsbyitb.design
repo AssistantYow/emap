@@ -20,7 +20,7 @@
                                     <int id="0" val="IT Faculty"/>
                                 </set-game-val-6>
                                 <set-game-val-7 comment="false" x="48" y="201">
-                                    <int id="0" val="No Description Yet"/>
+                                    <int id="0" val="test"/>
                                 </set-game-val-7>
                                 <set-game-val-8 comment="false" x="48" y="221">
                                     <int id="0" val="itfac"/>
