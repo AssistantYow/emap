@@ -1921,6 +1921,17 @@
                 <prop id="54" list="0" val=""/>
                 <prop id="53" list="0" val=""/>
                 <prop id="52" list="0" val=""/>
+                <prop id="59" list="0" val=""/>
+                <prop id="58" list="0" val=""/>
+                <prop id="57" list="0" val=""/>
+                <prop id="56" list="0" val=""/>
+                <prop id="63" list="0" val=""/>
+                <prop id="62" list="0" val=""/>
+                <prop id="61" list="0" val=""/>
+                <prop id="60" list="0" val=""/>
+                <prop id="64" list="0" val=""/>
+                <prop id="65" list="0" val=""/>
+                <prop id="66" list="0" val=""/>
             </s>
         </snippets>
     </actor>
@@ -2243,13 +2254,18 @@
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="7" fixedrot="false" fric="0.2" gid="3" id="8" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btn_MainCampus" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="9" static="true">
-        <snippets/>
+        <snippets>
+            <s enabled="true" id="643">
+                <prop id="1" list="0" val="9"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="45" id="9" name="btn_MainCampus" shared="false" width="187">
-        <anim across="1" down="1" durations="100" height="45" id="0" loop="true" name="1" numframes="1" originx="93" originy="22" sync="false" version="2" width="187">
+        <anim across="1" down="1" durations="100" height="45" id="0" loop="false" name="1" numframes="1" originx="93" originy="22" sync="false" version="2" width="187">
             <poly data="4,0,0,187,0,187,45,0,45" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="1" down="1" durations="100" height="45" id="1" loop="true" name="2" numframes="1" originx="93" originy="22" sync="false" version="2" width="187">
+        <anim across="1" down="1" durations="100" height="45" id="1" loop="false" name="2" numframes="1" originx="93" originy="22" sync="false" version="2" width="187">
             <poly data="4,0,0,187,0,187,45,0,45" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
@@ -2890,6 +2906,1293 @@
             </s>
         </snippets>
     </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="572" name="btnMain2f_202" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="492" fixedrot="false" fric="0.2" gid="3" id="571" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_202" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="572" static="true">
+        <snippets>
+            <s enabled="true" id="592">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="574" name="btnMain2f_203" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="493" fixedrot="false" fric="0.2" gid="3" id="573" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_203" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="574" static="true">
+        <snippets>
+            <s enabled="true" id="593">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="494" fixedrot="false" fric="0.2" gid="3" id="575" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_204" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="576" static="true">
+        <snippets>
+            <s enabled="true" id="594">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="576" name="btnMain2f_204" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="495" fixedrot="false" fric="0.2" gid="3" id="577" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_205" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="578" static="true">
+        <snippets>
+            <s enabled="true" id="595">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="578" name="btnMain2f_205" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="496" fixedrot="false" fric="0.2" gid="3" id="579" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_206" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="580" static="true">
+        <snippets>
+            <s enabled="true" id="596">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="580" name="btnMain2f_206" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="497" fixedrot="false" fric="0.2" gid="3" id="581" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_207" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="582" static="true">
+        <snippets>
+            <s enabled="true" id="597">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="582" name="btnMain2f_207" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="498" fixedrot="false" fric="0.2" gid="3" id="583" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_208" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="584" static="true">
+        <snippets>
+            <s enabled="true" id="598">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="584" name="btnMain2f_208" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="499" fixedrot="false" fric="0.2" gid="3" id="585" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_209" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="586" static="true">
+        <snippets>
+            <s enabled="true" id="599">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="586" name="btnMain2f_209" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="500" fixedrot="false" fric="0.2" gid="3" id="587" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_210" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="588" static="true">
+        <snippets>
+            <s enabled="true" id="600">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="588" name="btnMain2f_210" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="501" fixedrot="false" fric="0.2" gid="3" id="589" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_211" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="590" static="true">
+        <snippets>
+            <s enabled="true" id="601">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="590" name="btnMain2f_211" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="502" fixedrot="false" fric="0.2" gid="3" id="591" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_212" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="592" static="true">
+        <snippets>
+            <s enabled="true" id="602">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="592" name="btnMain2f_212" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="503" fixedrot="false" fric="0.2" gid="3" id="593" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_213" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="594" static="true">
+        <snippets>
+            <s enabled="true" id="603">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="594" name="btnMain2f_213" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="504" fixedrot="false" fric="0.2" gid="3" id="595" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_214" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="596" static="true">
+        <snippets>
+            <s enabled="true" id="604">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="596" name="btnMain2f_214" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="505" fixedrot="false" fric="0.2" gid="3" id="597" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_215" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="598" static="true">
+        <snippets>
+            <s enabled="true" id="605">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="598" name="btnMain2f_215" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="506" fixedrot="false" fric="0.2" gid="3" id="599" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_adm" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="600" static="true">
+        <snippets>
+            <s enabled="true" id="606">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="600" name="btnMain2f_adm" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="507" fixedrot="false" fric="0.2" gid="3" id="601" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_as" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="602" static="true">
+        <snippets>
+            <s enabled="true" id="607">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="602" name="btnMain2f_as" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="508" fixedrot="false" fric="0.2" gid="3" id="603" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_b1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="604" static="true">
+        <snippets>
+            <s enabled="true" id="608">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="604" name="btnMain2f_b1" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="509" fixedrot="false" fric="0.2" gid="3" id="605" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_b2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="606" static="true">
+        <snippets>
+            <s enabled="true" id="609">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="606" name="btnMain2f_b2" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="608" name="btnMain2f_b3" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="510" fixedrot="false" fric="0.2" gid="3" id="607" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_b3" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="608" static="true">
+        <snippets>
+            <s enabled="true" id="610">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="610" name="btnMain2f_b4" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="511" fixedrot="false" fric="0.2" gid="3" id="609" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_b4" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="610" static="true">
+        <snippets>
+            <s enabled="true" id="611">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="512" fixedrot="false" fric="0.2" gid="3" id="611" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_b5" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="612" static="true">
+        <snippets>
+            <s enabled="true" id="612">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="612" name="btnMain2f_b5" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="614" name="btnMain2f_bo" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="513" fixedrot="false" fric="0.2" gid="3" id="613" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_bo" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="614" static="true">
+        <snippets>
+            <s enabled="true" id="613">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="514" fixedrot="false" fric="0.2" gid="3" id="615" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_crf" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="616" static="true">
+        <snippets>
+            <s enabled="true" id="614">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="616" name="btnMain2f_crf" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="618" name="btnMain2f_cte" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="515" fixedrot="false" fric="0.2" gid="3" id="617" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_cte" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="618" static="true">
+        <snippets>
+            <s enabled="true" id="615">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="516" fixedrot="false" fric="0.2" gid="3" id="619" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_gr" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="620" static="true">
+        <snippets>
+            <s enabled="true" id="616">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="620" name="btnMain2f_gr" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="622" name="btnMain2f_ih" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="517" fixedrot="false" fric="0.2" gid="3" id="621" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_ih" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="622" static="true">
+        <snippets>
+            <s enabled="true" id="617">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="518" fixedrot="false" fric="0.2" gid="3" id="623" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_lib" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="624" static="true">
+        <snippets>
+            <s enabled="true" id="618">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="624" name="btnMain2f_lib" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="519" fixedrot="false" fric="0.2" gid="3" id="627" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_mf" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="628" static="true">
+        <snippets>
+            <s enabled="true" id="619">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="628" name="btnMain2f_mf" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="630" name="btnMain2f_mm" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="520" fixedrot="false" fric="0.2" gid="3" id="629" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_mm" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="630" static="true">
+        <snippets>
+            <s enabled="true" id="620">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="521" fixedrot="false" fric="0.2" gid="3" id="631" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_ms" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="632" static="true">
+        <snippets>
+            <s enabled="true" id="621">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="632" name="btnMain2f_ms" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="634" name="btnMain2f_od" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="522" fixedrot="false" fric="0.2" gid="3" id="633" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_od" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="634" static="true">
+        <snippets>
+            <s enabled="true" id="622">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="523" fixedrot="false" fric="0.2" gid="3" id="635" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_op" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="636" static="true">
+        <snippets>
+            <s enabled="true" id="623">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="636" name="btnMain2f_op" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="638" name="btnMain2f_osa" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="524" fixedrot="false" fric="0.2" gid="3" id="637" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_osa" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="638" static="true">
+        <snippets>
+            <s enabled="true" id="624">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="525" fixedrot="false" fric="0.2" gid="3" id="639" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_pe" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="640" static="true">
+        <snippets>
+            <s enabled="true" id="625">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="640" name="btnMain2f_pe" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="526" fixedrot="false" fric="0.2" gid="3" id="641" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_po" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="642" static="true">
+        <snippets>
+            <s enabled="true" id="626">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="642" name="btnMain2f_po" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="644" name="btnMain2f_rd" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="527" fixedrot="false" fric="0.2" gid="3" id="643" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_rd" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="644" static="true">
+        <snippets>
+            <s enabled="true" id="627">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="528" fixedrot="false" fric="0.2" gid="3" id="645" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_rr" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="646" static="true">
+        <snippets>
+            <s enabled="true" id="628">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="646" name="btnMain2f_rr" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="648" name="btnMain2f_sl" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="529" fixedrot="false" fric="0.2" gid="3" id="647" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_sl" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="648" static="true">
+        <snippets>
+            <s enabled="true" id="629">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="530" fixedrot="false" fric="0.2" gid="3" id="649" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain2f_sr" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="650" static="true">
+        <snippets>
+            <s enabled="true" id="630">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="650" name="btnMain2f_sr" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="652" name="btnMain3f_avr" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="531" fixedrot="false" fric="0.2" gid="3" id="651" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain3f_avr" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="652" static="true">
+        <snippets>
+            <s enabled="true" id="631">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="532" fixedrot="false" fric="0.2" gid="3" id="653" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain3f_c1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="654" static="true">
+        <snippets>
+            <s enabled="true" id="632">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="654" name="btnMain3f_c1" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="533" fixedrot="false" fric="0.2" gid="3" id="655" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain3f_c2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="656" static="true">
+        <snippets>
+            <s enabled="true" id="633">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="656" name="btnMain3f_c2" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="534" fixedrot="false" fric="0.2" gid="3" id="657" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain3f_c3" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="658" static="true">
+        <snippets>
+            <s enabled="true" id="634">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="658" name="btnMain3f_c3" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="660" name="btnMain3f_c4" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="535" fixedrot="false" fric="0.2" gid="3" id="659" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain3f_c4" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="660" static="true">
+        <snippets>
+            <s enabled="true" id="635">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="536" fixedrot="false" fric="0.2" gid="3" id="661" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain3f_c5" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="662" static="true">
+        <snippets>
+            <s enabled="true" id="636">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="662" name="btnMain3f_c5" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="664" name="btnMain3f_hs" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="537" fixedrot="false" fric="0.2" gid="3" id="663" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain3f_hs" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="664" static="true">
+        <snippets>
+            <s enabled="true" id="637">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="538" fixedrot="false" fric="0.2" gid="3" id="665" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain3f_itf" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="666" static="true">
+        <snippets>
+            <s enabled="true" id="638">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="666" name="btnMain3f_itf" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="668" name="btnMain3f_lab1" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="539" fixedrot="false" fric="0.2" gid="3" id="667" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain3f_lab1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="668" static="true">
+        <snippets>
+            <s enabled="true" id="639">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="540" fixedrot="false" fric="0.2" gid="3" id="669" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain3f_lab2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="670" static="true">
+        <snippets>
+            <s enabled="true" id="640">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="670" name="btnMain3f_lab2" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="672" name="btnMain3f_sr" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="541" fixedrot="false" fric="0.2" gid="3" id="671" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain3f_sr" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="672" static="true">
+        <snippets>
+            <s enabled="true" id="641">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="674" name="btnMain3f_techlab" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="542" fixedrot="false" fric="0.2" gid="3" id="673" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain3f_techlab" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="674" static="true">
+        <snippets>
+            <s enabled="true" id="642">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="38" id="694" name="btnMain_Destination" shared="false" width="100">
+        <anim across="1" down="1" durations="100" height="38" id="0" loop="false" name="Animation 0" numframes="1" originx="50" originy="19" sync="false" version="2" width="100">
+            <poly data="4,0,0,100,0,100,38,0,38" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="38" id="1" loop="false" name="Animation 1" numframes="1" originx="50" originy="19" sync="false" version="2" width="100">
+            <poly data="4,0,0,100,0,100,38,0,38" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="648" fixedrot="false" fric="0.2" gid="3" id="693" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMain_Destination" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="694" static="true">
+        <snippets>
+            <s enabled="true" id="646">
+                <prop id="1" list="0" val=""/>
+                <prop id="2" list="0" val=""/>
+                <prop id="3" list="0" val=""/>
+                <prop id="4" list="0" val=""/>
+                <prop id="5" list="0" val=""/>
+                <prop id="6" list="0" val=""/>
+                <prop id="7" list="0" val=""/>
+                <prop id="8" list="0" val=""/>
+                <prop id="9" list="0" val=""/>
+                <prop id="10" list="0" val=""/>
+                <prop id="11" list="0" val=""/>
+                <prop id="12" list="0" val=""/>
+                <prop id="13" list="0" val=""/>
+                <prop id="14" list="0" val=""/>
+                <prop id="15" list="0" val=""/>
+                <prop id="17" list="0" val=""/>
+                <prop id="16" list="0" val=""/>
+                <prop id="19" list="0" val=""/>
+                <prop id="18" list="0" val=""/>
+                <prop id="21" list="0" val=""/>
+                <prop id="20" list="0" val=""/>
+                <prop id="23" list="0" val=""/>
+                <prop id="22" list="0" val=""/>
+                <prop id="25" list="0" val=""/>
+                <prop id="24" list="0" val=""/>
+                <prop id="27" list="0" val=""/>
+                <prop id="26" list="0" val=""/>
+                <prop id="29" list="0" val=""/>
+                <prop id="28" list="0" val=""/>
+                <prop id="31" list="0" val=""/>
+                <prop id="30" list="0" val=""/>
+                <prop id="34" list="0" val=""/>
+                <prop id="35" list="0" val=""/>
+                <prop id="32" list="0" val=""/>
+                <prop id="33" list="0" val=""/>
+                <prop id="38" list="0" val=""/>
+                <prop id="39" list="0" val=""/>
+                <prop id="36" list="0" val=""/>
+                <prop id="37" list="0" val=""/>
+                <prop id="42" list="0" val=""/>
+                <prop id="43" list="0" val=""/>
+                <prop id="40" list="0" val=""/>
+                <prop id="41" list="0" val=""/>
+                <prop id="46" list="0" val=""/>
+                <prop id="47" list="0" val=""/>
+                <prop id="44" list="0" val=""/>
+                <prop id="45" list="0" val=""/>
+                <prop id="51" list="0" val=""/>
+                <prop id="50" list="0" val=""/>
+                <prop id="49" list="0" val=""/>
+                <prop id="48" list="0" val=""/>
+                <prop id="55" list="0" val=""/>
+                <prop id="54" list="0" val=""/>
+                <prop id="53" list="0" val=""/>
+                <prop id="52" list="0" val=""/>
+                <prop id="59" list="0" val=""/>
+                <prop id="58" list="0" val=""/>
+                <prop id="57" list="0" val=""/>
+                <prop id="56" list="0" val=""/>
+                <prop id="63" list="0" val=""/>
+                <prop id="62" list="0" val=""/>
+                <prop id="61" list="0" val=""/>
+                <prop id="60" list="0" val=""/>
+                <prop id="68" list="0" val=""/>
+                <prop id="69" list="0" val=""/>
+                <prop id="70" list="0" val=""/>
+                <prop id="71" list="0" val=""/>
+                <prop id="64" list="0" val=""/>
+                <prop id="65" list="0" val=""/>
+                <prop id="66" list="0" val=""/>
+                <prop id="67" list="0" val=""/>
+                <prop id="76" list="0" val=""/>
+                <prop id="77" list="0" val=""/>
+                <prop id="78" list="0" val=""/>
+                <prop id="79" list="0" val=""/>
+                <prop id="72" list="0" val=""/>
+                <prop id="73" list="0" val=""/>
+                <prop id="74" list="0" val=""/>
+                <prop id="75" list="0" val=""/>
+                <prop id="85" list="0" val=""/>
+                <prop id="84" list="0" val=""/>
+                <prop id="87" list="0" val=""/>
+                <prop id="86" list="0" val=""/>
+                <prop id="81" list="0" val=""/>
+                <prop id="80" list="0" val=""/>
+                <prop id="83" list="0" val=""/>
+                <prop id="82" list="0" val=""/>
+                <prop id="93" list="0" val=""/>
+                <prop id="92" list="0" val=""/>
+                <prop id="95" list="0" val=""/>
+                <prop id="94" list="0" val=""/>
+                <prop id="89" list="0" val=""/>
+                <prop id="88" list="0" val=""/>
+                <prop id="91" list="0" val=""/>
+                <prop id="90" list="0" val=""/>
+                <prop id="102" list="0" val=""/>
+                <prop id="103" list="0" val=""/>
+                <prop id="100" list="0" val=""/>
+                <prop id="101" list="0" val=""/>
+                <prop id="98" list="0" val=""/>
+                <prop id="99" list="0" val=""/>
+                <prop id="96" list="0" val=""/>
+                <prop id="97" list="0" val=""/>
+                <prop id="104" list="0" val=""/>
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="478" name="btnMainGf_101" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="445" fixedrot="false" fric="0.2" gid="3" id="477" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_101" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="478" static="true">
+        <snippets>
+            <s enabled="true" id="547">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="446" fixedrot="false" fric="0.2" gid="3" id="479" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_102" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="480" static="true">
+        <snippets>
+            <s enabled="true" id="548">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="480" name="btnMainGf_102" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="447" fixedrot="false" fric="0.2" gid="3" id="481" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_103" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="482" static="true">
+        <snippets>
+            <s enabled="true" id="549">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="482" name="btnMainGf_103" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="484" name="btnMainGf_104" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="448" fixedrot="false" fric="0.2" gid="3" id="483" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_104" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="484" static="true">
+        <snippets>
+            <s enabled="true" id="550">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="488" name="btnMainGf_105" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="450" fixedrot="false" fric="0.2" gid="3" id="487" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_105" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="488" static="true">
+        <snippets>
+            <s enabled="true" id="551">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="449" fixedrot="false" fric="0.2" gid="3" id="485" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_106" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="486" static="true">
+        <snippets>
+            <s enabled="true" id="552">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="486" name="btnMainGf_106" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="451" fixedrot="false" fric="0.2" gid="3" id="489" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_107" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="490" static="true">
+        <snippets>
+            <s enabled="true" id="553">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="490" name="btnMainGf_107" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="492" name="btnMainGf_108" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="452" fixedrot="false" fric="0.2" gid="3" id="491" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_108" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="492" static="true">
+        <snippets>
+            <s enabled="true" id="554">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="453" fixedrot="false" fric="0.2" gid="3" id="493" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_109" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="494" static="true">
+        <snippets>
+            <s enabled="true" id="555">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="494" name="btnMainGf_109" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="496" name="btnMainGf_110" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="454" fixedrot="false" fric="0.2" gid="3" id="495" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_110" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="496" static="true">
+        <snippets>
+            <s enabled="true" id="556">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="455" fixedrot="false" fric="0.2" gid="3" id="497" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_111" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="498" static="true">
+        <snippets>
+            <s enabled="true" id="557">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="498" name="btnMainGf_111" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="500" name="btnMainGf_112" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="456" fixedrot="false" fric="0.2" gid="3" id="499" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_112" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="500" static="true">
+        <snippets>
+            <s enabled="true" id="558">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="457" fixedrot="false" fric="0.2" gid="3" id="501" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_113" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="502" static="true">
+        <snippets>
+            <s enabled="true" id="559">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="502" name="btnMainGf_113" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="504" name="btnMainGf_114" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="458" fixedrot="false" fric="0.2" gid="3" id="503" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_114" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="504" static="true">
+        <snippets>
+            <s enabled="true" id="560">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="459" fixedrot="false" fric="0.2" gid="3" id="505" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_a1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="506" static="true">
+        <snippets>
+            <s enabled="true" id="561">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="506" name="btnMainGf_a1" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="508" name="btnMainGf_a2" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="460" fixedrot="false" fric="0.2" gid="3" id="507" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_a2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="508" static="true">
+        <snippets>
+            <s enabled="true" id="562">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="461" fixedrot="false" fric="0.2" gid="3" id="509" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_a3" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="510" static="true">
+        <snippets>
+            <s enabled="true" id="563">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="510" name="btnMainGf_a3" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="462" fixedrot="false" fric="0.2" gid="3" id="511" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_a4" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="512" static="true">
+        <snippets>
+            <s enabled="true" id="564">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="512" name="btnMainGf_a4" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="463" fixedrot="false" fric="0.2" gid="3" id="513" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_a5" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="514" static="true">
+        <snippets>
+            <s enabled="true" id="565">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="514" name="btnMainGf_a5" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="516" name="btnMainGf_a6" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="464" fixedrot="false" fric="0.2" gid="3" id="515" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_a6" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="516" static="true">
+        <snippets>
+            <s enabled="true" id="566">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="465" fixedrot="false" fric="0.2" gid="3" id="517" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_ao" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="518" static="true">
+        <snippets>
+            <s enabled="true" id="567">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="518" name="btnMainGf_ao" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="466" fixedrot="false" fric="0.2" gid="3" id="519" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_c" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="520" static="true">
+        <snippets>
+            <s enabled="true" id="568">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="520" name="btnMainGf_c" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="467" fixedrot="false" fric="0.2" gid="3" id="521" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_canteen" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="522" static="true">
+        <snippets>
+            <s enabled="true" id="569">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="522" name="btnMainGf_canteen" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="524" name="btnMainGf_cp" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="468" fixedrot="false" fric="0.2" gid="3" id="523" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_cp" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="524" static="true">
+        <snippets>
+            <s enabled="true" id="570">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="469" fixedrot="false" fric="0.2" gid="3" id="525" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_cr" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="526" static="true">
+        <snippets>
+            <s enabled="true" id="571">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="526" name="btnMainGf_cr" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="470" fixedrot="false" fric="0.2" gid="3" id="527" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_cwts" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="528" static="true">
+        <snippets>
+            <s enabled="true" id="572">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="528" name="btnMainGf_cwts" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="471" fixedrot="false" fric="0.2" gid="3" id="529" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_dc" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="530" static="true">
+        <snippets>
+            <s enabled="true" id="573">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="530" name="btnMainGf_ds" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="532" name="btnMainGf_eh" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="472" fixedrot="false" fric="0.2" gid="3" id="531" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_eh" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="532" static="true">
+        <snippets>
+            <s enabled="true" id="574">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="473" fixedrot="false" fric="0.2" gid="3" id="533" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_fcr" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="534" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="534" name="btnMainGf_fcr" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="474" fixedrot="false" fric="0.2" gid="3" id="535" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_genhouse" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="536" static="true">
+        <snippets>
+            <s enabled="true" id="575">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="536" name="btnMainGf_genhouse" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="475" fixedrot="false" fric="0.2" gid="3" id="537" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_gym" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="538" static="true">
+        <snippets>
+            <s enabled="true" id="576">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="538" name="btnMainGf_gym" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="540" name="btnMainGf_lab" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="476" fixedrot="false" fric="0.2" gid="3" id="539" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_lab" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="540" static="true">
+        <snippets>
+            <s enabled="true" id="577">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="477" fixedrot="false" fric="0.2" gid="3" id="541" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_m" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="542" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="542" name="btnMainGf_m" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="544" name="btnMainGf_marketing" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="478" fixedrot="false" fric="0.2" gid="3" id="543" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_marketing" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="544" static="true">
+        <snippets>
+            <s enabled="true" id="578">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="546" name="btnMainGf_mcr" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="479" fixedrot="false" fric="0.2" gid="3" id="545" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_mcr" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="546" static="true">
+        <snippets>
+            <s enabled="true" id="579">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="548" name="btnMainGf_md1" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="480" fixedrot="false" fric="0.2" gid="3" id="547" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_md1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="548" static="true">
+        <snippets>
+            <s enabled="true" id="580">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="550" name="btnMainGf_md2" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="481" fixedrot="false" fric="0.2" gid="3" id="549" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_md2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="550" static="true">
+        <snippets>
+            <s enabled="true" id="581">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="482" fixedrot="false" fric="0.2" gid="3" id="551" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_md3" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="552" static="true">
+        <snippets>
+            <s enabled="true" id="582">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="552" name="btnMainGf_md3" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="554" name="btnMainGf_parking" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="483" fixedrot="false" fric="0.2" gid="3" id="553" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_parking" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="554" static="true">
+        <snippets>
+            <s enabled="true" id="583">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="556" name="btnMainGf_pavillion" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="484" fixedrot="false" fric="0.2" gid="3" id="555" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_pavillion" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="556" static="true">
+        <snippets>
+            <s enabled="true" id="584">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="558" name="btnMainGf_ro" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="485" fixedrot="false" fric="0.2" gid="3" id="557" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_ro" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="558" static="true">
+        <snippets>
+            <s enabled="true" id="585">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="486" fixedrot="false" fric="0.2" gid="3" id="559" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_so" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="560" static="true">
+        <snippets>
+            <s enabled="true" id="586">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="560" name="btnMainGf_so" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="562" name="btnMainGf_sr" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="487" fixedrot="false" fric="0.2" gid="3" id="561" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_sr" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="562" static="true">
+        <snippets>
+            <s enabled="true" id="587">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="564" name="btnMainGf_ssg" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="488" fixedrot="false" fric="0.2" gid="3" id="563" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_ssg" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="564" static="true">
+        <snippets>
+            <s enabled="true" id="588">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="566" name="btnMainGf_ted1" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="489" fixedrot="false" fric="0.2" gid="3" id="565" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_ted1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="566" static="true">
+        <snippets>
+            <s enabled="true" id="589">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="490" fixedrot="false" fric="0.2" gid="3" id="567" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_ted2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="568" static="true">
+        <snippets>
+            <s enabled="true" id="590">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="568" name="btnMainGf_ted2" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="570" name="btnMainGf_tr" shared="false" width="141">
+        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="491" fixedrot="false" fric="0.2" gid="3" id="569" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_tr" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="570" static="true">
+        <snippets>
+            <s enabled="true" id="591">
+                <prop id="2147483647" list="0" val="thisactor"/>
+            </s>
+        </snippets>
+    </actor>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="176" fixedrot="false" fric="0.2" gid="3" id="223" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMB_Back" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="224" static="true">
         <snippets/>
     </actor>
@@ -3036,6 +4339,46 @@
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="68" fixedrot="false" fric="0.2" gid="3" id="109" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Destinationss" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="110" static="true">
+        <snippets/>
+    </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="645" fixedrot="false" fric="0.2" gid="3" id="687" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Main_BG" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="688" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="500" id="688" name="Main_BG" shared="false" width="325">
+        <anim across="1" down="1" durations="100" height="500" id="0" loop="false" name="Animation 0" numframes="1" originx="162" originy="250" sync="false" version="2" width="325">
+            <poly data="4,0,0,325,0,325,500,0,500" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="500" id="692" name="Main_destination" shared="false" width="325">
+        <anim across="1" down="1" durations="100" height="500" id="0" loop="false" name="Animation 0" numframes="1" originx="162" originy="250" sync="false" version="2" width="325">
+            <poly data="4,0,0,325,0,325,500,0,500" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="647" fixedrot="false" fric="0.2" gid="3" id="691" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Main_destination" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="692" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="429" id="680" name="Main_Map2F" shared="false" width="213">
+        <anim across="1" down="1" durations="100" height="429" id="0" loop="true" name="Animation 0" numframes="1" originx="106" originy="214" sync="false" version="2" width="213">
+            <poly data="4,0,0,213,0,213,429,0,429" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="545" fixedrot="false" fric="0.2" gid="3" id="679" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Main_Map2F" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="680" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="500" id="682" name="Main_Map3F" shared="false" width="325">
+        <anim across="1" down="1" durations="100" height="500" id="0" loop="true" name="Animation 0" numframes="1" originx="162" originy="250" sync="false" version="2" width="325">
+            <poly data="4,0,0,325,0,325,500,0,500" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="546" fixedrot="false" fric="0.2" gid="3" id="681" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Main_Map3F" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="682" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="429" id="678" name="Main_MapGF" shared="false" width="221">
+        <anim across="1" down="1" durations="100" height="429" id="0" loop="true" name="Animation 0" numframes="1" originx="110" originy="214" sync="false" version="2" width="221">
+            <poly data="4,0,0,221,0,221,429,0,429" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="544" fixedrot="false" fric="0.2" gid="3" id="677" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Main_MapGF" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="678" static="true">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="1" defaultAnimation="1" desc="" height="150" id="236" name="Mamburao_Img" shared="false" width="150">
@@ -3683,6 +5026,305 @@
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="422" fixedrot="false" fric="0.2" gid="3" id="451" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="path_LB" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="452" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="97" defaultAnimation="97" desc="" height="53" id="676" name="path_Main" shared="false" width="45">
+        <anim across="1" down="1" durations="100" height="254" id="0" loop="false" name="gf_101" numframes="1" originx="86" originy="127" sync="false" version="2" width="173">
+            <poly data="4,0,0,173,0,173,254,0,254" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="254" id="1" loop="false" name="gf_102" numframes="1" originx="87" originy="127" sync="false" version="2" width="174">
+            <poly data="4,0,0,174,0,174,254,0,254" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_102" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="254" id="2" loop="false" name="gf_103" numframes="1" originx="86" originy="127" sync="false" version="2" width="173">
+            <poly data="4,0,0,173,0,173,254,0,254" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_103" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="254" id="3" loop="false" name="gf_104" numframes="1" originx="86" originy="127" sync="false" version="2" width="173">
+            <poly data="4,0,0,173,0,173,254,0,254" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_104" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="254" id="4" loop="false" name="gf_105" numframes="1" originx="86" originy="127" sync="false" version="2" width="173">
+            <poly data="4,0,0,173,0,173,254,0,254" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_105" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="254" id="5" loop="false" name="gf_106" numframes="1" originx="87" originy="127" sync="false" version="2" width="174">
+            <poly data="4,0,0,174,0,174,254,0,254" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_106" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="254" id="6" loop="false" name="gf_107" numframes="1" originx="87" originy="127" sync="false" version="2" width="174">
+            <poly data="4,0,0,174,0,174,254,0,254" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_107" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="182" id="7" loop="false" name="gf_108" numframes="1" originx="86" originy="91" sync="false" version="2" width="173">
+            <poly data="4,0,0,173,0,173,182,0,182" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_108" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="158" id="8" loop="false" name="gf_109" numframes="1" originx="87" originy="79" sync="false" version="2" width="174">
+            <poly data="4,0,0,174,0,174,158,0,158" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_109" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="135" id="9" loop="false" name="gf_110" numframes="1" originx="87" originy="67" sync="false" version="2" width="174">
+            <poly data="4,0,0,174,0,174,135,0,135" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_110" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="113" id="10" loop="false" name="gf_111" numframes="1" originx="87" originy="56" sync="false" version="2" width="174">
+            <poly data="4,0,0,174,0,174,113,0,113" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_111" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="104" id="11" loop="false" name="gf_112" numframes="1" originx="87" originy="52" sync="false" version="2" width="174">
+            <poly data="4,0,0,174,0,174,104,0,104" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_112" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="104" id="12" loop="false" name="gf_113" numframes="1" originx="86" originy="52" sync="false" version="2" width="173">
+            <poly data="4,0,0,173,0,173,104,0,104" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_113" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="104" id="13" loop="false" name="gf_114" numframes="1" originx="86" originy="52" sync="false" version="2" width="173">
+            <poly data="4,0,0,173,0,173,104,0,104" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_114" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="110" id="14" loop="false" name="gf_a1" numframes="1" originx="11" originy="55" sync="false" version="2" width="22">
+            <poly data="4,0,0,22,0,22,110,0,110" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 14" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="110" id="15" loop="false" name="gf_a2" numframes="1" originx="17" originy="55" sync="false" version="2" width="35">
+            <poly data="4,0,0,35,0,35,110,0,110" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_a2" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="111" id="17" loop="false" name="gf_a4" numframes="1" originx="41" originy="55" sync="false" version="2" width="82">
+            <poly data="4,0,0,82,0,82,111,0,111" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="110" id="16" loop="false" name="gf_a3" numframes="1" originx="29" originy="55" sync="false" version="2" width="58">
+            <poly data="4,0,0,58,0,58,110,0,110" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_a3" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="112" id="19" loop="false" name="gf_a6" numframes="1" originx="66" originy="56" sync="false" version="2" width="132">
+            <poly data="4,0,0,132,0,132,112,0,112" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_a6" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="112" id="18" loop="false" name="gf_a5" numframes="1" originx="54" originy="56" sync="false" version="2" width="108">
+            <poly data="4,0,0,108,0,108,112,0,112" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 18" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="205" id="21" loop="false" name="gf_c" numframes="1" originx="59" originy="102" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,205,0,205" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_c" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="259" id="20" loop="false" name="gf_ao" numframes="1" originx="59" originy="129" sync="false" version="2" width="119">
+            <poly data="4,0,0,119,0,119,259,0,259" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_ao" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="117" id="23" loop="false" name="gf_cp" numframes="1" originx="77" originy="58" sync="false" version="2" width="154">
+            <poly data="4,0,0,154,0,154,117,0,117" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_cp" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="104" id="22" loop="false" name="gf_canteen" numframes="1" originx="61" originy="52" sync="false" version="2" width="122">
+            <poly data="4,0,0,122,0,122,104,0,104" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_canteen" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="104" id="25" loop="false" name="gf_crf" numframes="1" originx="66" originy="52" sync="false" version="2" width="132">
+            <poly data="4,0,0,132,0,132,104,0,104" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_crf" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="112" id="24" loop="false" name="gf_cr" numframes="1" originx="90" originy="56" sync="false" version="2" width="181">
+            <poly data="4,0,0,181,0,181,112,0,112" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_cr" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="33" id="27" loop="false" name="gf_dc" numframes="1" originx="11" originy="16" sync="false" version="2" width="22">
+            <poly data="4,0,0,22,0,22,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_dc" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="62" id="26" loop="false" name="gf_cwts" numframes="1" originx="11" originy="31" sync="false" version="2" width="22">
+            <poly data="4,0,0,22,0,22,62,0,62" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_cwts" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="29" loop="false" name="gf_gh" numframes="1" originx="11" originy="38" sync="false" version="2" width="22">
+            <poly data="4,0,0,22,0,22,77,0,77" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_gh" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="196" id="28" loop="false" name="gf_eh" numframes="1" originx="59" originy="98" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,196,0,196" density="0.1" fric="0.2" gid="-1000" id="0" name="eh" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="104" id="31" loop="false" name="gf_lab" numframes="1" originx="61" originy="52" sync="false" version="2" width="123">
+            <poly data="4,0,0,123,0,123,104,0,104" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_lab" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="30" loop="false" name="gf_gym" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,0,77,0,77,77,0,77" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_gym" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="162" id="34" loop="false" name="gf_md1" numframes="1" originx="46" originy="81" sync="false" version="2" width="92">
+            <poly data="4,0,0,92,0,92,162,0,162" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_md1" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="163" id="35" loop="false" name="gf_md2" numframes="1" originx="38" originy="81" sync="false" version="2" width="77">
+            <poly data="4,0,0,77,0,77,163,0,163" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_md2" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="161" id="32" loop="false" name="gf_m" numframes="1" originx="38" originy="80" sync="false" version="2" width="77">
+            <poly data="4,0,0,77,0,77,161,0,161" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_m" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="91" id="33" loop="false" name="gf_mcr" numframes="1" originx="11" originy="45" sync="false" version="2" width="22">
+            <poly data="4,0,0,22,0,22,91,0,91" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_mcr" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="77" id="38" loop="false" name="gf_pa" numframes="1" originx="38" originy="38" sync="false" version="2" width="77">
+            <poly data="4,0,0,77,0,77,77,0,77" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_pa" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="104" id="39" loop="false" name="gf_pavillion" numframes="1" originx="49" originy="52" sync="false" version="2" width="99">
+            <poly data="4,0,0,99,0,99,104,0,104" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_pavillion" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="161" id="36" loop="false" name="gf_md3" numframes="1" originx="38" originy="80" sync="false" version="2" width="77">
+            <poly data="4,0,0,77,0,77,161,0,161" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_md3" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="104" id="37" loop="false" name="gf_mpc" numframes="1" originx="56" originy="52" sync="false" version="2" width="113">
+            <poly data="4,0,0,113,0,113,104,0,104" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_mpc" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="253" id="42" loop="false" name="gf_sr" numframes="1" originx="59" originy="126" sync="false" version="2" width="119">
+            <poly data="4,0,0,119,0,119,253,0,253" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_sr" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="56" id="43" loop="false" name="gf_ssg" numframes="1" originx="55" originy="28" sync="false" version="2" width="111">
+            <poly data="4,0,0,111,0,111,56,0,56" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_ssg" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="261" id="40" loop="false" name="gf_ro" numframes="1" originx="82" originy="130" sync="false" version="2" width="164">
+            <poly data="4,0,0,164,0,164,261,0,261" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_ro" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="235" id="41" loop="false" name="gf_so" numframes="1" originx="59" originy="117" sync="false" version="2" width="118">
+            <poly data="4,0,0,118,0,118,235,0,235" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_so" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="104" id="46" loop="false" name="gf_tr2" numframes="1" originx="61" originy="52" sync="false" version="2" width="123">
+            <poly data="4,0,0,123,0,123,104,0,104" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_tr2" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="291" id="47" loop="false" name="2f_202" numframes="1" originx="86" originy="145" sync="false" version="2" width="173">
+            <poly data="4,0,0,173,0,173,291,0,291" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="104" id="44" loop="false" name="gf_tr" numframes="1" originx="86" originy="52" sync="false" version="2" width="173">
+            <poly data="4,0,0,173,0,173,104,0,104" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_tr" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="104" id="45" loop="false" name="gf_tr1" numframes="1" originx="58" originy="52" sync="false" version="2" width="117">
+            <poly data="4,0,0,117,0,117,104,0,104" density="0.1" fric="0.2" gid="-1000" id="0" name="gf_" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="291" id="51" loop="false" name="2f_206" numframes="1" originx="87" originy="145" sync="false" version="2" width="174">
+            <poly data="4,0,0,174,0,174,291,0,291" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_206" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="291" id="50" loop="false" name="2f_205" numframes="1" originx="87" originy="145" sync="false" version="2" width="174">
+            <poly data="4,0,0,174,0,174,291,0,291" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_205" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="291" id="49" loop="false" name="2f_204" numframes="1" originx="86" originy="145" sync="false" version="2" width="173">
+            <poly data="4,0,0,173,0,173,291,0,291" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_204" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="291" id="48" loop="false" name="2f_203" numframes="1" originx="86" originy="145" sync="false" version="2" width="172">
+            <poly data="4,0,0,172,0,172,291,0,291" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_203" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="150" id="55" loop="false" name="2f_210" numframes="1" originx="96" originy="75" sync="false" version="2" width="193">
+            <poly data="4,0,0,193,0,193,150,0,150" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_210" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="170" id="54" loop="false" name="2f_209" numframes="1" originx="97" originy="85" sync="false" version="2" width="194">
+            <poly data="4,0,0,194,0,194,170,0,170" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_209" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="190" id="53" loop="false" name="2f_208" numframes="1" originx="96" originy="95" sync="false" version="2" width="193">
+            <poly data="4,0,0,193,0,193,190,0,190" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_208" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="291" id="52" loop="false" name="2f_207" numframes="1" originx="86" originy="145" sync="false" version="2" width="172">
+            <poly data="4,0,0,172,0,172,291,0,291" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_207" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="103" id="59" loop="false" name="2f_214" numframes="1" originx="96" originy="51" sync="false" version="2" width="193">
+            <poly data="4,0,0,193,0,193,103,0,103" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_214" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="103" id="58" loop="false" name="2f_213" numframes="1" originx="96" originy="51" sync="false" version="2" width="193">
+            <poly data="4,0,0,193,0,193,103,0,103" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_213" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="113" id="57" loop="false" name="2f_212" numframes="1" originx="97" originy="56" sync="false" version="2" width="194">
+            <poly data="4,0,0,194,0,194,113,0,113" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_212" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="132" id="56" loop="false" name="2f_211" numframes="1" originx="96" originy="66" sync="false" version="2" width="193">
+            <poly data="4,0,0,193,0,193,132,0,132" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_211" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="113" id="63" loop="false" name="2f_b1" numframes="1" originx="22" originy="56" sync="false" version="2" width="44">
+            <poly data="4,0,0,44,0,44,113,0,113" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_b1" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="291" id="62" loop="false" name="2f_as" numframes="1" originx="86" originy="145" sync="false" version="2" width="173">
+            <poly data="4,0,0,173,0,173,291,0,291" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="291" id="61" loop="false" name="2f_adm" numframes="1" originx="77" originy="145" sync="false" version="2" width="154">
+            <poly data="4,0,0,154,0,154,291,0,291" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_adm" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="103" id="60" loop="false" name="2f_215" numframes="1" originx="96" originy="51" sync="false" version="2" width="193">
+            <poly data="4,0,0,193,0,193,103,0,103" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_215" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="291" id="68" loop="false" name="2f_bo" numframes="1" originx="83" originy="145" sync="false" version="2" width="167">
+            <poly data="4,0,0,167,0,167,291,0,291" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_bo" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="103" id="69" loop="false" name="2f_crf" numframes="1" originx="22" originy="51" sync="false" version="2" width="44">
+            <poly data="4,0,0,44,0,44,103,0,103" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_crf" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="103" id="70" loop="false" name="2f_cte" numframes="1" originx="96" originy="51" sync="false" version="2" width="193">
+            <poly data="4,0,0,193,0,193,103,0,103" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_cte" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="54" id="71" loop="false" name="2f_gr" numframes="1" originx="23" originy="27" sync="false" version="2" width="47">
+            <poly data="4,0,0,47,0,47,54,0,54" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_gr" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="114" id="64" loop="false" name="2f_b2" numframes="1" originx="27" originy="57" sync="false" version="2" width="55">
+            <poly data="4,0,0,55,0,55,114,0,114" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_b2" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="114" id="65" loop="false" name="2f_b3" numframes="1" originx="40" originy="57" sync="false" version="2" width="80">
+            <poly data="4,0,0,80,0,80,114,0,114" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 65" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="114" id="66" loop="false" name="2f_b4" numframes="1" originx="51" originy="57" sync="false" version="2" width="103">
+            <poly data="4,0,0,103,0,103,114,0,114" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_b4" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="114" id="67" loop="false" name="2f_b5" numframes="1" originx="64" originy="57" sync="false" version="2" width="129">
+            <poly data="4,0,0,129,0,129,114,0,114" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_b5" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="114" id="76" loop="false" name="2f_ms" numframes="1" originx="76" originy="57" sync="false" version="2" width="153">
+            <poly data="4,0,0,153,0,153,114,0,114" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_ms" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="291" id="77" loop="false" name="2f_od" numframes="1" originx="70" originy="145" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,291,0,291" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_od" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="291" id="78" loop="false" name="2f_op" numframes="1" originx="70" originy="145" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,291,0,291" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_op" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="103" id="79" loop="false" name="2f_osa" numframes="1" originx="69" originy="51" sync="false" version="2" width="139">
+            <poly data="4,0,0,139,0,139,103,0,103" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_osa" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="103" id="72" loop="false" name="2f_ih" numframes="1" originx="96" originy="51" sync="false" version="2" width="193">
+            <poly data="4,0,0,193,0,193,103,0,103" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_ih" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="182" id="73" loop="false" name="2f_lib" numframes="1" originx="64" originy="91" sync="false" version="2" width="128">
+            <poly data="4,0,0,128,0,128,182,0,182" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_lib" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="64" id="74" loop="false" name="2f_mf" numframes="1" originx="21" originy="32" sync="false" version="2" width="43">
+            <poly data="4,0,0,43,0,43,64,0,64" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_mf" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="117" id="75" loop="false" name="2f_mm" numframes="1" originx="77" originy="58" sync="false" version="2" width="154">
+            <poly data="4,0,0,154,0,154,117,0,117" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_mm" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="103" id="85" loop="false" name="2f_sr" numframes="1" originx="22" originy="51" sync="false" version="2" width="44">
+            <poly data="4,0,0,44,0,44,103,0,103" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_sr" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="117" id="84" loop="false" name="2f_sl" numframes="1" originx="77" originy="58" sync="false" version="2" width="154">
+            <poly data="4,0,0,154,0,154,117,0,117" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_sl" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="113" id="87" loop="false" name="3f_c1" numframes="1" originx="20" originy="56" sync="false" version="2" width="40">
+            <poly data="4,0,0,40,0,40,113,0,113" density="0.1" fric="0.2" gid="-1000" id="0" name="3f_c1" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="288" id="86" loop="false" name="3f_avr" numframes="1" originx="84" originy="144" sync="false" version="2" width="168">
+            <poly data="4,0,0,168,0,168,288,0,288" density="0.1" fric="0.2" gid="-1000" id="0" name="3f_" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="291" id="81" loop="false" name="2f_po" numframes="1" originx="86" originy="145" sync="false" version="2" width="172">
+            <poly data="4,0,0,172,0,172,291,0,291" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_po" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="117" id="80" loop="false" name="2f_pe" numframes="1" originx="77" originy="58" sync="false" version="2" width="155">
+            <poly data="4,0,0,155,0,155,117,0,117" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_pe" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="182" id="83" loop="false" name="2f_rr" numframes="1" originx="64" originy="91" sync="false" version="2" width="128">
+            <poly data="4,0,0,128,0,128,182,0,182" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_rr" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="103" id="82" loop="false" name="2f_rd" numframes="1" originx="96" originy="51" sync="false" version="2" width="192">
+            <poly data="4,0,0,192,0,192,103,0,103" density="0.1" fric="0.2" gid="-1000" id="0" name="2f_rd" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="104" id="93" loop="false" name="3f_itf" numframes="1" originx="95" originy="52" sync="false" version="2" width="191">
+            <poly data="4,0,0,191,0,191,104,0,104" density="0.1" fric="0.2" gid="-1000" id="0" name="3f_itf" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="288" id="92" loop="false" name="3f_hs" numframes="1" originx="71" originy="144" sync="false" version="2" width="142">
+            <poly data="4,0,0,142,0,142,288,0,288" density="0.1" fric="0.2" gid="-1000" id="0" name="3f_hs" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="114" id="95" loop="false" name="3f_lab2" numframes="1" originx="84" originy="57" sync="false" version="2" width="169">
+            <poly data="4,0,0,169,0,169,114,0,114" density="0.1" fric="0.2" gid="-1000" id="0" name="3f_lab2" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="104" id="94" loop="false" name="3f_lab1" numframes="1" originx="87" originy="52" sync="false" version="2" width="175">
+            <poly data="4,0,0,175,0,175,104,0,104" density="0.1" fric="0.2" gid="-1000" id="0" name="3f_" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="115" id="89" loop="false" name="3f_c3" numframes="1" originx="43" originy="57" sync="false" version="2" width="86">
+            <poly data="4,0,0,86,0,86,115,0,115" density="0.1" fric="0.2" gid="-1000" id="0" name="3f_c3" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="115" id="88" loop="false" name="3f_c2" numframes="1" originx="30" originy="57" sync="false" version="2" width="60">
+            <poly data="4,0,0,60,0,60,115,0,115" density="0.1" fric="0.2" gid="-1000" id="0" name="3f_c2" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="115" id="91" loop="false" name="3f_c5" numframes="1" originx="70" originy="57" sync="false" version="2" width="141">
+            <poly data="4,0,0,141,0,141,115,0,115" density="0.1" fric="0.2" gid="-1000" id="0" name="3f_c5" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="115" id="90" loop="false" name="3f_c4" numframes="1" originx="57" originy="57" sync="false" version="2" width="114">
+            <poly data="4,0,0,114,0,114,115,0,115" density="0.1" fric="0.2" gid="-1000" id="0" name="3f_c4" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="87" id="96" loop="false" name="3f_sr" numframes="1" originx="20" originy="43" sync="false" version="2" width="40">
+            <poly data="4,0,0,40,0,40,87,0,87" density="0.1" fric="0.2" gid="-1000" id="0" name="3f_sr" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="53" id="97" loop="false" name="3f_techlab" numframes="1" originx="22" originy="26" sync="false" version="2" width="45">
+            <poly data="4,0,0,45,0,45,53,0,53" density="0.1" fric="0.2" gid="-1000" id="0" name="3f_tl" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="543" fixedrot="false" fric="0.2" gid="3" id="675" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="path_Main" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="676" static="true">
         <snippets/>
     </actor>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="175" fixedrot="false" fric="0.2" gid="3" id="221" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="path_murtha" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="222" static="true">
