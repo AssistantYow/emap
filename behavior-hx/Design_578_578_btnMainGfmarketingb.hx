@@ -93,7 +93,7 @@ if(wrapper.enabled)
 {
                 Engine.engine.setGameAttribute("ViewPath_Mamburao", false);
                 Engine.engine.setGameAttribute("btnPath_Clicked", true);
-                Engine.engine.setGameAttribute("SelectedPath", "gf_m");
+                Engine.engine.setGameAttribute("SelectedPath", "gf_marketing");
 }
 
 }

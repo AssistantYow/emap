@@ -2,12 +2,12 @@
 <scene depth="6" desc="" eventsnippetid="136" extheight="544" extwidth="384" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="3" name="MurthaCampus" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="320">
     <layers>
         <color-bg blue="255" green="255" red="255"/>
-        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="map" opacity="100" order="5" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="map" opacity="100" order="5" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
         <layer blendMode="normal" color="0,0,255" id="1" locked="false" name="path" opacity="100" order="4" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
         <layer blendMode="normal" color="0,255,0" id="2" locked="false" name="walker" opacity="100" order="3" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
         <layer blendMode="normal" color="255,200,0" id="3" locked="false" name="title" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="64,64,64" id="4" locked="false" name="destination" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
-        <layer blendMode="normal" color="255,255,0" id="5" locked="false" name="buttons" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="4" locked="false" name="destination" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
+        <layer blendMode="normal" color="255,255,0" id="5" locked="false" name="buttons" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="false"/>
     </layers>
     <joints/>
     <regions/>
@@ -96,6 +96,7 @@
         <actor a="0.0" aid="36" c="false" group="3" id="211" name="btn_31_murtha 36" sx="1.0" sy="1.0" x="166" y="366" z="5"/>
         <actor a="0.0" aid="37" c="false" group="3" id="213" name="btn_32_murtha 37" sx="1.0" sy="1.0" x="166" y="390" z="5"/>
         <actor a="0.0" aid="42" c="false" group="3" id="233" name="btnMurtha_ViewDetail 42" sx="1.0" sy="1.0" x="9" y="147" z="3"/>
+        <actor a="0.0" aid="43" c="false" group="3" id="719" name="btnMurtha_ViewRef 43" sx="1.0" sy="1.0" x="9" y="181" z="3"/>
         <actor a="0.0" aid="40" c="false" group="3" id="221" name="path_murtha 40" sx="1.0" sy="1.0" x="32" y="176" z="1"/>
         <actor a="0.0" aid="41" c="false" group="3" id="143" name="Back 41" sx="0.83928573" sy="0.8181818" x="-7" y="31" z="3"/>
     </actors>

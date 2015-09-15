@@ -10,4 +10,8 @@
     <scene desc="" format="3.4.0" id="7" name="LabanganACampus"/>
     <scene desc="" format="3.4.0" id="8" name="LabanganBCampus"/>
     <scene desc="" format="3.4.0" id="9" name="MainCampus"/>
+    <scene desc="" format="3.4.0" id="10" name="Sby_TextScene"/>
+    <scene desc="" format="3.4.0" id="11" name="MB_TextScene"/>
+    <scene desc="" format="3.4.0" id="12" name="MURTHA_TEXTSCENE"/>
+    <scene desc="" format="3.4.0" id="13" name="LB_TextScene"/>
 </scenes>

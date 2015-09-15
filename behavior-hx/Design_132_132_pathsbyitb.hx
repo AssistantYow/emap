@@ -95,7 +95,7 @@ if(wrapper.enabled)
                 Engine.engine.setGameAttribute("btnPath_Clicked", true);
                 Engine.engine.setGameAttribute("SelectedPath", "sby_it");
                 Engine.engine.setGameAttribute("RoomName", "IT Faculty");
-                Engine.engine.setGameAttribute("RoomDesc", "No Description Yet");
+                Engine.engine.setGameAttribute("RoomDesc", "...");
                 Engine.engine.setGameAttribute("RoomImg", "itfac");
 }
 

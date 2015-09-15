@@ -1,57 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pack>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="700" name="2f" shared="false" width="141">
-        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
-            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="651" fixedrot="false" fric="0.2" gid="3" id="699" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="2f" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="700" static="true">
-        <snippets/>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="712" name="2fNext" shared="false" width="141">
-        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
-            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="656" fixedrot="false" fric="0.2" gid="3" id="711" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="2fNext" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="712" static="true">
-        <snippets>
-            <s enabled="true" id="663">
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-        </snippets>
-    </actor>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="657" fixedrot="false" fric="0.2" gid="3" id="713" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="2FPrev" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="714" static="true">
-        <snippets>
-            <s enabled="true" id="664">
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-        </snippets>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="714" name="2FPrev" shared="false" width="141">
-        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
-            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="702" name="3f" shared="false" width="141">
-        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
-            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="652" fixedrot="false" fric="0.2" gid="3" id="701" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="3f" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="702" static="true">
-        <snippets/>
-    </actor>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="658" fixedrot="false" fric="0.2" gid="3" id="715" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="3FPrev" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="716" static="true">
-        <snippets>
-            <s enabled="true" id="665">
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-        </snippets>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="716" name="3FPrev" shared="false" width="141">
-        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
-            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="458" name="aa" shared="false" width="141">
         <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
             <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
@@ -217,10 +165,10 @@
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="36" fixedrot="false" fric="0.2" gid="3" id="49" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btn110" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="50" static="true">
         <snippets>
-            <s enabled="true" id="94">
+            <s enabled="true" id="26">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
-            <s enabled="true" id="26">
+            <s enabled="true" id="94">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
         </snippets>
@@ -398,10 +346,10 @@
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="227" fixedrot="false" fric="0.2" gid="3" id="249" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btn_105_LA" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="250" static="true">
         <snippets>
-            <s enabled="true" id="265">
+            <s enabled="true" id="26">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
-            <s enabled="true" id="26">
+            <s enabled="true" id="265">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
         </snippets>
@@ -728,10 +676,10 @@
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="155" fixedrot="false" fric="0.2" gid="3" id="183" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btn_17_murtha" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="184" static="true">
         <snippets>
-            <s enabled="true" id="26">
+            <s enabled="true" id="198">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
-            <s enabled="true" id="198">
+            <s enabled="true" id="26">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
         </snippets>
@@ -830,10 +778,10 @@
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="291" fixedrot="false" fric="0.2" gid="3" id="321" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btn_203_LA" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="322" static="true">
         <snippets>
-            <s enabled="true" id="299">
+            <s enabled="true" id="26">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
-            <s enabled="true" id="26">
+            <s enabled="true" id="299">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
         </snippets>
@@ -1179,10 +1127,10 @@
     </actor>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="172" fixedrot="false" fric="0.2" gid="3" id="217" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btn_35_murtha" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="218" static="true">
         <snippets>
-            <s enabled="true" id="26">
+            <s enabled="true" id="215">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
-            <s enabled="true" id="215">
+            <s enabled="true" id="26">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
         </snippets>
@@ -1310,10 +1258,10 @@
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="72" fixedrot="false" fric="0.2" gid="3" id="117" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btn_6" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="118" static="true">
         <snippets>
-            <s enabled="true" id="124">
+            <s enabled="true" id="26">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
-            <s enabled="true" id="26">
+            <s enabled="true" id="124">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
         </snippets>
@@ -1738,10 +1686,10 @@
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="77" fixedrot="false" fric="0.2" gid="3" id="127" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btn_crime" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="128" static="true">
         <snippets>
-            <s enabled="true" id="130">
+            <s enabled="true" id="26">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
-            <s enabled="true" id="26">
+            <s enabled="true" id="130">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
         </snippets>
@@ -1768,10 +1716,10 @@
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="242" fixedrot="false" fric="0.2" gid="3" id="279" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btn_crm_LA" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="280" static="true">
         <snippets>
-            <s enabled="true" id="280">
+            <s enabled="true" id="26">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
-            <s enabled="true" id="26">
+            <s enabled="true" id="280">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
         </snippets>
@@ -1931,8 +1879,8 @@
                 <prop id="12" list="0" val=""/>
                 <prop id="13" list="0" val=""/>
                 <prop id="14" list="0" val=""/>
-                <prop id="15" list="0" val=""/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="15" list="0" val=""/>
                 <prop id="17" list="0" val=""/>
                 <prop id="16" list="0" val=""/>
                 <prop id="19" list="0" val=""/>
@@ -2749,10 +2697,10 @@
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="52" fixedrot="false" fric="0.2" gid="3" id="81" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnCG" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="82" static="true">
         <snippets>
-            <s enabled="true" id="109">
+            <s enabled="true" id="26">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
-            <s enabled="true" id="26">
+            <s enabled="true" id="109">
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
         </snippets>
@@ -2877,8 +2825,8 @@
                 <prop id="12" list="0" val=""/>
                 <prop id="13" list="0" val=""/>
                 <prop id="14" list="0" val=""/>
-                <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="15" list="0" val=""/>
+                <prop id="2147483647" list="0" val="thisactor"/>
                 <prop id="16" list="0" val=""/>
             </s>
         </snippets>
@@ -2941,6 +2889,22 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="96" name="btnlab2" shared="false" width="141">
         <anim across="1" down="1" durations="100" height="19" id="0" loop="true" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
             <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="663" fixedrot="false" fric="0.2" gid="3" id="728" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnLB_Back" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="729" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="45" id="729" name="btnLB_Back" shared="false" width="112">
+        <anim across="1" down="1" durations="100" height="45" id="0" loop="true" name="Animation 0" numframes="1" originx="56" originy="22" sync="false" version="2" width="112">
+            <poly data="4,0,0,112,0,112,45,0,45" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="661" fixedrot="false" fric="0.2" gid="3" id="726" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnLB_Viewref" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="727" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="33" id="727" name="btnLB_Viewref" shared="false" width="98">
+        <anim across="1" down="1" durations="100" height="33" id="0" loop="true" name="Animation 0" numframes="1" originx="49" originy="16" sync="false" version="2" width="98">
+            <poly data="4,0,0,98,0,98,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="102" name="btnlib" shared="false" width="141">
@@ -3571,10 +3535,10 @@
         </snippets>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="38" id="694" name="btnMain_Destination" shared="false" width="100">
-        <anim across="1" down="1" durations="100" height="38" id="0" loop="false" name="1" numframes="1" originx="50" originy="19" sync="false" version="2" width="100">
+        <anim across="1" down="1" durations="100" height="38" id="0" loop="false" name="Animation 0" numframes="1" originx="50" originy="19" sync="false" version="2" width="100">
             <poly data="4,0,0,100,0,100,38,0,38" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="1" down="1" durations="100" height="38" id="1" loop="false" name="2" numframes="1" originx="50" originy="19" sync="false" version="2" width="100">
+        <anim across="1" down="1" durations="100" height="38" id="1" loop="false" name="Animation 1" numframes="1" originx="50" originy="19" sync="false" version="2" width="100">
             <poly data="4,0,0,100,0,100,38,0,38" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
@@ -3684,17 +3648,7 @@
                 <prop id="99" list="0" val=""/>
                 <prop id="96" list="0" val=""/>
                 <prop id="97" list="0" val=""/>
-                <prop id="110" list="0" val=""/>
-                <prop id="111" list="0" val=""/>
-                <prop id="108" list="0" val=""/>
-                <prop id="109" list="0" val=""/>
-                <prop id="106" list="0" val=""/>
-                <prop id="107" list="0" val=""/>
                 <prop id="104" list="0" val=""/>
-                <prop id="105" list="0" val=""/>
-                <prop id="114" list="0" val=""/>
-                <prop id="113" list="0" val=""/>
-                <prop id="112" list="0" val=""/>
                 <prop id="2147483647" list="0" val="thisactor"/>
             </s>
         </snippets>
@@ -4036,11 +3990,7 @@
         </snippets>
     </actor>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="473" fixedrot="false" fric="0.2" gid="3" id="533" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMainGf_fcr" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="534" static="true">
-        <snippets>
-            <s enabled="true" id="666">
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-        </snippets>
+        <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="534" name="btnMainGf_fcr" shared="false" width="141">
         <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
@@ -4275,6 +4225,14 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="178" fixedrot="false" fric="0.2" gid="3" id="227" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMB_ViewDetail" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="228" static="true">
         <snippets/>
     </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="655" fixedrot="false" fric="0.2" gid="3" id="717" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMB_ViewRef" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="718" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="33" id="718" name="btnMB_ViewRef" shared="false" width="98">
+        <anim across="1" down="1" durations="100" height="33" id="0" loop="true" name="Animation 0" numframes="1" originx="49" originy="16" sync="false" version="2" width="98">
+            <poly data="4,0,0,98,0,98,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="45" id="232" name="btnMurtha_Back" shared="false" width="112">
         <anim across="1" down="1" durations="100" height="45" id="0" loop="true" name="Animation 0" numframes="1" originx="56" originy="22" sync="false" version="2" width="112">
             <poly data="4,0,0,112,0,112,45,0,45" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
@@ -4291,6 +4249,14 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="218" fixedrot="false" fric="0.2" gid="3" id="233" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMurtha_ViewDetail" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="234" static="true">
         <snippets/>
     </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="657" fixedrot="false" fric="0.2" gid="3" id="719" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnMurtha_ViewRef" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="720" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="33" id="720" name="btnMurtha_ViewRef" shared="false" width="98">
+        <anim across="1" down="1" durations="100" height="33" id="0" loop="true" name="Animation 0" numframes="1" originx="49" originy="16" sync="false" version="2" width="98">
+            <poly data="4,0,0,98,0,98,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="68" name="btnNR" shared="false" width="141">
         <anim across="1" down="1" durations="100" height="19" id="0" loop="true" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
             <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
@@ -4337,6 +4303,14 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="179" fixedrot="false" fric="0.2" gid="3" id="229" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnSBY_ViewDetail" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="230" static="true">
         <snippets/>
     </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="653" fixedrot="false" fric="0.2" gid="3" id="713" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="btnSBY_ViewRef" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="714" static="true">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="33" id="714" name="btnSBY_ViewRef" shared="false" width="98">
+        <anim across="1" down="1" durations="100" height="33" id="0" loop="true" name="Animation 0" numframes="1" originx="49" originy="16" sync="false" version="2" width="98">
+            <poly data="4,0,0,98,0,98,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="92" name="btnSR" shared="false" width="141">
         <anim across="1" down="1" durations="100" height="19" id="0" loop="true" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
             <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
@@ -4407,40 +4381,42 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="68" fixedrot="false" fric="0.2" gid="3" id="109" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Destinationss" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="110" static="true">
         <snippets/>
     </actor>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="653" fixedrot="false" fric="0.2" gid="3" id="703" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="GFNext1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="704" static="true">
+    <custom-block blocktag="custom-705" blocktype="ACTION" code="~.say(&quot;Label&quot;, &quot;_customBlock_HideLabel&quot;);" desc="" global="false" gui="hide label for %0" id="705" message="HideLabel" name="HideLabel" oid="-1" return="void" shared="false" snippetID="652">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="660" fixedrot="false" fric="0.2" gid="3" id="724" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="LB_TextDesc" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="725" static="true">
         <snippets>
-            <s enabled="true" id="660">
+            <s enabled="true" id="652">
+                <prop id="34" list="0" val="0"/>
+                <prop id="1" list="0" val="Default Font"/>
+                <prop id="32" list="0" val="true"/>
+                <prop id="33" list="0" val="0"/>
+                <prop id="4" list="0" val="Admin Office -Dr. Paguia, Wenceslao  -Dr. Torres, Maria Theresa C. Arts,Science and Technology -Aguilar, Filipina G -Alaan, Perlita P Admin Bldg. -Acosta, Emmanuel V -Alvarado, Lynette A Faculty -Baren, Loure Mae D -Ramos, Aleta G  CBAM -Dr. Delfin, Josue C  -Avillanoza, Rommel  NSTP Office -Delgado, Jerry M Library -Estorninos, Lelita"/>
+                <prop id="39" list="0" val="true"/>
+                <prop id="37" list="0" val=""/>
+                <prop id="42" list="0" val="false"/>
+                <prop id="43" list="0" val="false"/>
+                <prop id="41" list="0" val="0.0"/>
+                <prop id="11" list="0" val="0.0"/>
+                <prop id="14" list="0" val="true"/>
                 <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="17" list="0" val="Center"/>
+                <prop id="18" list="0" val="250"/>
+                <prop id="21" list="0" val="0.0"/>
+                <prop id="25" list="0" val="10"/>
+                <prop id="24" list="0" val="Middle"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="26" list="0" val="0"/>
+                <prop id="29" list="0" val=""/>
+                <prop id="28" list="0" val=""/>
+                <prop id="31" list="0" val="false"/>
+                <prop id="30" list="0" val="true"/>
             </s>
         </snippets>
     </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="704" name="GFNext1" shared="false" width="141">
-        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
-            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="654" fixedrot="false" fric="0.2" gid="3" id="705" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="GFNext2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="706" static="true">
-        <snippets>
-            <s enabled="true" id="662">
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-        </snippets>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="706" name="GFNext2" shared="false" width="141">
-        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
-            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="655" fixedrot="false" fric="0.2" gid="3" id="709" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="GFPrev2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="710" static="true">
-        <snippets>
-            <s enabled="true" id="661">
-                <prop id="2147483647" list="0" val="thisactor"/>
-            </s>
-        </snippets>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="710" name="GFPrev2" shared="false" width="141">
-        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
-            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="17" id="725" name="LB_TextDesc" shared="false" width="17">
+        <anim across="1" down="1" durations="100" height="17" id="0" loop="true" name="Animation 0" numframes="1" originx="8" originy="8" sync="false" version="2" width="17">
+            <poly data="4,0,0,17,0,17,17,0,17" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="645" fixedrot="false" fric="0.2" gid="3" id="687" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Main_BG" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="688" static="true">
@@ -4457,22 +4433,6 @@
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="647" fixedrot="false" fric="0.2" gid="3" id="691" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Main_destination" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="692" static="true">
-        <snippets/>
-    </actor>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="659" fixedrot="false" fric="0.2" gid="3" id="717" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Main_gf2_label" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="718" static="true">
-        <snippets/>
-    </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="718" name="Main_gf2_label" shared="false" width="141">
-        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
-            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="19" id="696" name="Main_gf_label" shared="false" width="141">
-        <anim across="1" down="1" durations="100" height="19" id="0" loop="false" name="Animation 0" numframes="1" originx="70" originy="9" sync="false" version="2" width="141">
-            <poly data="4,0,0,141,0,141,19,0,19" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="649" fixedrot="false" fric="0.2" gid="3" id="695" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Main_gf_label" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="696" static="true">
         <snippets/>
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="429" id="680" name="Main_Map2F" shared="false" width="213">
@@ -4677,6 +4637,82 @@
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="500" id="148" name="map_murtha" shared="false" width="325">
         <anim across="1" down="1" durations="100" height="500" id="0" loop="false" name="Animation 0" numframes="1" originx="162" originy="250" sync="false" version="2" width="325">
             <poly data="4,0,0,325,0,325,500,0,500" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="654" fixedrot="false" fric="0.2" gid="3" id="715" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="MB_TextDesc" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="716" static="true">
+        <snippets>
+            <s enabled="true" id="652">
+                <prop id="34" list="0" val="0"/>
+                <prop id="1" list="0" val="-1"/>
+                <prop id="32" list="0" val="true"/>
+                <prop id="33" list="0" val="0"/>
+                <prop id="4" list="0" val="Admin Office -Centeno, Rolando A. -Guilas, Michelle Lynne V. Faculty Office -Bulaong, Marilyn M. -Gamit, Judith G. -Natividad, Edwina A. -Tria, Amelia D. -Ulay, Rowena C. -Catalo, Judy A. -Dumalaog, Ruby Janne S. -Gulac, Jean P. -Natividad, Jose Jr. A. -Regudo, Ladybird C. -Leido, Virginia M. -Caponpon, Ma. Cristina A."/>
+                <prop id="39" list="0" val="true"/>
+                <prop id="37" list="0" val=""/>
+                <prop id="42" list="0" val="false"/>
+                <prop id="43" list="0" val="false"/>
+                <prop id="41" list="0" val="0.0"/>
+                <prop id="11" list="0" val="0.0"/>
+                <prop id="14" list="0" val="true"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="17" list="0" val="Center"/>
+                <prop id="18" list="0" val="250"/>
+                <prop id="21" list="0" val="0.0"/>
+                <prop id="25" list="0" val="10"/>
+                <prop id="24" list="0" val="Middle"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="26" list="0" val="0"/>
+                <prop id="29" list="0" val=""/>
+                <prop id="28" list="0" val=""/>
+                <prop id="31" list="0" val="false"/>
+                <prop id="30" list="0" val="true"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="17" id="716" name="MB_TextDesc" shared="false" width="17">
+        <anim across="1" down="1" durations="100" height="17" id="0" loop="true" name="Animation 0" numframes="1" originx="8" originy="8" sync="false" version="2" width="17">
+            <poly data="4,0,0,17,0,17,17,0,17" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <custom-block blocktag="custom-712" blocktype="NORMAL" code="cast((~.say(&quot;Label&quot;, &quot;_customBlock_MouseOverLabel&quot;)), Bool)" desc="" global="false" gui="is mouse over label for %0" id="712" message="MouseOverLabel" name="MouseOverLabel" oid="-1" return="boolean" shared="false" snippetID="652">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-711" blocktype="NORMAL" code="cast((~.say(&quot;Label&quot;, &quot;_customBlock_MouseOverText&quot;)), Bool)" desc="" global="false" gui="is mouse over text for %0" id="711" message="MouseOverText" name="MouseOverText" oid="-1" return="boolean" shared="false" snippetID="652">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="659" fixedrot="false" fric="0.2" gid="3" id="721" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="MURTHA_TextDesc" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="722" static="true">
+        <snippets>
+            <s enabled="true" id="652">
+                <prop id="34" list="0" val="0"/>
+                <prop id="1" list="0" val="-1"/>
+                <prop id="32" list="0" val="true"/>
+                <prop id="33" list="0" val="0"/>
+                <prop id="4" list="0" val="Admin Bldg. -Dr. Calanza, Liberato D., Jr. -Agayan, Gerson O. -Ambong, Ryan Mark A. -Arpa, Berabe I. -Aucina, Winston B. -Bañaga, Artemio T. -Barrientos, Mary Joy V. -Bautista, Bonifacio M. -Dagos, Rizza Angelica T OSA Office -Dr. Lazaro, Dionisia Faculty Office -Amson, Roger T. -Batiles, Benedicto R., Jr. -Bautista, Lolita L. -Calitang, Garry L. -Camus, Jerardo A."/>
+                <prop id="39" list="0" val="true"/>
+                <prop id="37" list="0" val=""/>
+                <prop id="42" list="0" val="false"/>
+                <prop id="43" list="0" val="false"/>
+                <prop id="41" list="0" val="0.0"/>
+                <prop id="11" list="0" val="0.0"/>
+                <prop id="14" list="0" val="true"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="17" list="0" val="Center"/>
+                <prop id="18" list="0" val="260"/>
+                <prop id="21" list="0" val="0.0"/>
+                <prop id="25" list="0" val="50"/>
+                <prop id="24" list="0" val="Middle"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="26" list="0" val="0"/>
+                <prop id="29" list="0" val=""/>
+                <prop id="28" list="0" val=""/>
+                <prop id="31" list="0" val="false"/>
+                <prop id="30" list="0" val="true"/>
+            </s>
+        </snippets>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="17" id="722" name="MURTHA_TextDesc" shared="false" width="17">
+        <anim across="1" down="1" durations="100" height="17" id="0" loop="true" name="Animation 0" numframes="1" originx="8" originy="8" sync="false" version="2" width="17">
+            <poly data="4,0,0,17,0,17,17,0,17" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="121" fixedrot="false" fric="0.2" gid="3" id="145" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="path" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="146" static="true">
@@ -5146,7 +5182,7 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="422" fixedrot="false" fric="0.2" gid="3" id="451" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="path_LB" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="452" static="true">
         <snippets/>
     </actor>
-    <sprite atlasID="0" default="88" defaultAnimation="88" desc="" height="115" id="676" name="path_Main" shared="false" width="60">
+    <sprite atlasID="0" default="97" defaultAnimation="97" desc="" height="53" id="676" name="path_Main" shared="false" width="45">
         <anim across="1" down="1" durations="100" height="254" id="0" loop="false" name="gf_101" numframes="1" originx="86" originy="127" sync="false" version="2" width="173">
             <poly data="4,0,0,173,0,173,254,0,254" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
@@ -5602,6 +5638,78 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="220" fixedrot="false" fric="0.2" gid="3" id="237" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Sby_Img" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="238" static="true">
         <snippets/>
     </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="17" id="698" name="Sby_TextDesc" shared="false" width="17">
+        <anim across="1" down="1" durations="100" height="17" id="0" loop="true" name="Animation 0" numframes="1" originx="8" originy="8" sync="false" version="2" width="17">
+            <poly data="4,0,0,17,0,17,17,0,17" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="651" fixedrot="false" fric="0.2" gid="3" id="697" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Sby_TextDesc" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="698" static="false">
+        <snippets>
+            <s enabled="true" id="652">
+                <prop id="34" list="0" val="0"/>
+                <prop id="1" list="0" val="Default Font"/>
+                <prop id="32" list="0" val="true"/>
+                <prop id="33" list="0" val="0"/>
+                <prop id="4" list="0" val="Admin Office -Dela Cruz, Fatima B. -Edjan, Chester O. TED Faculty -Bartolome, Mark Anthony S. -Dantayana, Novelito E. -Jose, Mary Joy D. IT Faculty -Dela Cruz, Nelma S. -Mendoza, Luningning M. -Mendoza, Mamerto C. OSA Office -Mendoza, Mamerto  College of Criminal Justice Bldg. -Bendecio, Julyn A. -Peralta, Antonino P."/>
+                <prop id="39" list="0" val="true"/>
+                <prop id="37" list="0" val=""/>
+                <prop id="42" list="0" val="false"/>
+                <prop id="43" list="0" val="false"/>
+                <prop id="41" list="0" val="0.0"/>
+                <prop id="11" list="0" val="0.0"/>
+                <prop id="14" list="0" val="true"/>
+                <prop id="2147483647" list="0" val="thisactor"/>
+                <prop id="17" list="0" val="Center"/>
+                <prop id="18" list="0" val="250"/>
+                <prop id="21" list="0" val="0.0"/>
+                <prop id="25" list="0" val="10"/>
+                <prop id="24" list="0" val="Middle"/>
+                <prop id="27" list="0" val="0.0"/>
+                <prop id="26" list="0" val="0"/>
+                <prop id="29" list="0" val=""/>
+                <prop id="28" list="0" val=""/>
+                <prop id="31" list="0" val="false"/>
+                <prop id="30" list="0" val="true"/>
+            </s>
+        </snippets>
+    </actor>
+    <custom-block blocktag="custom-699" blocktype="ACTION" code="~.say(&quot;Label&quot;, &quot;_customBlock_SetLabelAlignmentBottom&quot;);" desc="" global="false" gui="bottom-align label for %0" id="699" message="SetLabelAlignmentBottom" name="SetLabelAlignmentBottom" oid="-1" return="void" shared="false" snippetID="652">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-704" blocktype="ACTION" code="~.say(&quot;Label&quot;, &quot;_customBlock_SetLabelAlignmentCenter&quot;);" desc="" global="false" gui="center label for %0" id="704" message="SetLabelAlignmentCenter" name="SetLabelAlignmentCenter" oid="-1" return="void" shared="false" snippetID="652">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-710" blocktype="ACTION" code="~.say(&quot;Label&quot;, &quot;_customBlock_SetLabelAlignmentLeft&quot;);" desc="" global="false" gui="left-align label for %0" id="710" message="SetLabelAlignmentLeft" name="SetLabelAlignmentLeft" oid="-1" return="void" shared="false" snippetID="652">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-702" blocktype="ACTION" code="~.say(&quot;Label&quot;, &quot;_customBlock_SetLabelAlignmentMiddle&quot;);" desc="" global="false" gui="center label vertically for %0" id="702" message="SetLabelAlignmentMiddle" name="SetLabelAlignmentMiddle" oid="-1" return="void" shared="false" snippetID="652">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-706" blocktype="ACTION" code="~.say(&quot;Label&quot;, &quot;_customBlock_SetLabelAlignmentRight&quot;);" desc="" global="false" gui="right-align label for %0" id="706" message="SetLabelAlignmentRight" name="SetLabelAlignmentRight" oid="-1" return="void" shared="false" snippetID="652">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-701" blocktype="ACTION" code="~.say(&quot;Label&quot;, &quot;_customBlock_SetLabelAlignmentTop&quot;);" desc="" global="false" gui="top-align label for %0" id="701" message="SetLabelAlignmentTop" name="SetLabelAlignmentTop" oid="-1" return="void" shared="false" snippetID="652">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
+    <custom-block blocktag="custom-709" blocktype="ACTION" code="~.say(&quot;Label&quot;, &quot;_customBlock_SetLabelFont&quot;, [~]);" desc="" global="false" gui="set label font to %1 for %0" id="709" message="SetLabelFont" name="SetLabelFont" oid="-1" return="void" shared="false" snippetID="652">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="font" order="1" type="font"/>
+    </custom-block>
+    <custom-block blocktag="custom-700" blocktype="ACTION" code="~.say(&quot;Label&quot;, &quot;_customBlock_SetLabelHeight&quot;, [~]);" desc="" global="false" gui="set label height to %1 for %0" id="700" message="SetLabelHeight" name="SetLabelHeight" oid="-1" return="void" shared="false" snippetID="652">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="height" order="1" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-708" blocktype="ACTION" code="~.say(&quot;Label&quot;, &quot;_customBlock_SetLabelText&quot;, [~]);" desc="" global="false" gui="set label text to %1 for %0" id="708" message="SetLabelText" name="SetLabelText" oid="-1" return="void" shared="false" snippetID="652">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="text" order="1" type="text"/>
+    </custom-block>
+    <custom-block blocktag="custom-707" blocktype="ACTION" code="~.say(&quot;Label&quot;, &quot;_customBlock_SetLabelWidth&quot;, [~]);" desc="" global="false" gui="set label width to %1 for %0" id="707" message="SetLabelWidth" name="SetLabelWidth" oid="-1" return="void" shared="false" snippetID="652">
+        <blank name="Self" order="0" type="actor"/>
+        <blank name="width" order="1" type="number"/>
+    </custom-block>
+    <custom-block blocktag="custom-703" blocktype="ACTION" code="~.say(&quot;Label&quot;, &quot;_customBlock_ShowLabel&quot;);" desc="" global="false" gui="show label for %0" id="703" message="ShowLabel" name="ShowLabel" oid="-1" return="void" shared="false" snippetID="652">
+        <blank name="Self" order="0" type="actor"/>
+    </custom-block>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="83" fixedrot="false" fric="0.2" gid="3" id="139" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="title" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="140" static="true">
         <snippets/>
     </actor>

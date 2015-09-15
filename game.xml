@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<game accelFramerate="0" adsPosition="0" aheight="480" airCert="" airPass="" androidAlias="" androidCert="" androidMinVersion="0" androidPassword="" androidPublicKey="" androidTargetVersion="7" antialias="true" appName="EMAP" appType="0" atlasBindingDefault="true" author="" authorURL="" autoRotate="false" awidth="320" backgroundColor="-15592942" barBackgroundColor="-12303292" barColor="-7829368" barHeight="8" barLocation="0" barOffsetX="0" barOffsetXPhone="0" barOffsetXTablet="0" barOffsetY="0" barOffsetYPhone="0" barOffsetYTablet="0" barScalePhone="1.0" barScaleTablet="2.0" barWidth="120" bindAllAtlasesDefault="true" borderColor="-12303292" borderThickness="2" bundleID="com.yourname.gamename" bundleVersion="1.0" checksum="none" cpmID="" cws-desc="Description" cws-icon128="" cws-icon16="" cws-name="Name" cws-version="1.0" default="0" defaultFramerate="60" defaultSceneID="0" desc="" desktopScale="1x" desktopScaleMode="1" deviceOS="4.3" disableBackButton="false" enableGPG="false" enablePurchases="false" engine="0" format="3.4.0" gameid="-1" googleAppID="" haxeExtras="" height="480" internalVersion="1" internalVersionIOS="1" kit="false" lockURL="" macBundleID="" maxScaleAndroid="4x" maxScaleDesktop="4x" maxScaleIOS="4x" maxScaleWeb="4x" metroColor="-12566464" mochi="" multitouch="true" name="EMap_0829A" ngID="" ngKey="" openflExtras="" orientation="0" p12="" p12pwd="" physicsMode="0" pixelsnap="false" preloaderstyle="0" products="" prov-adhoc="" prov-store="" scale="1" scaleModeAndroid="0" scaleModeDesktop="0" scaleModeIOS="0" scaleModeWeb="0" showAds="false" simulatorOS="4.3" splashStyle="0" startInFullScreenDesktop="false" startInFullScreenWeb="false" swfHeight="0" swfWidth="0" swfX="0" swfY="0" swfloc="" useGlossyIcon="false" webScale="1x" whirlKey="" width="320" windowsAppName="" windowsAuthor="" windowsBundleID="">
+<game accelFramerate="0" adsPosition="0" aheight="480" airCert="" airPass="" androidAlias="" androidCert="" androidMinVersion="0" androidPassword="" androidPublicKey="" androidTargetVersion="7" antialias="true" appName="EMAP" appType="0" atlasBindingDefault="true" author="" authorURL="" autoRotate="false" awidth="320" backgroundColor="-15592942" barBackgroundColor="-12303292" barColor="-7829368" barHeight="8" barLocation="0" barOffsetX="0" barOffsetXPhone="0" barOffsetXTablet="0" barOffsetY="0" barOffsetYPhone="0" barOffsetYTablet="0" barScalePhone="1.0" barScaleTablet="2.0" barWidth="120" bindAllAtlasesDefault="true" borderColor="-12303292" borderThickness="2" bundleID="com.yourname.gamename" bundleVersion="1.0" checksum="none" cpmID="" cws-desc="Description" cws-icon128="" cws-icon16="" cws-name="Name" cws-version="1.0" default="0" defaultFramerate="60" defaultSceneID="0" desc="" desktopScale="1x" desktopScaleMode="1" deviceOS="4.3" disableBackButton="false" enableGPG="false" enablePurchases="false" engine="0" format="3.4.0" gameid="-1" googleAppID="" haxeExtras="" height="480" internalVersion="1" internalVersionIOS="1" kit="false" lockURL="" macBundleID="" maxScaleAndroid="4x" maxScaleDesktop="4x" maxScaleIOS="4x" maxScaleWeb="4x" metroColor="-12566464" mochi="" multitouch="true" name="EMap_09142015" ngID="" ngKey="" openflExtras="" orientation="0" p12="" p12pwd="" physicsMode="0" pixelsnap="false" preloaderstyle="0" products="" prov-adhoc="" prov-store="" scale="1" scaleModeAndroid="0" scaleModeDesktop="0" scaleModeIOS="0" scaleModeWeb="0" showAds="false" simulatorOS="4.3" splashStyle="0" startInFullScreenDesktop="false" startInFullScreenWeb="false" swfHeight="0" swfWidth="0" swfX="0" swfY="0" swfloc="" useGlossyIcon="false" webScale="1x" whirlKey="" width="320" windowsAppName="" windowsAuthor="" windowsBundleID="">
     <exts>
         <e enabled="false" id="test-native"/>
         <e enabled="false" id="test"/>
-        <e enabled="false" id="label"/>
         <e enabled="false" id="test-flash"/>
+        <e enabled="false" id="label"/>
         <e enabled="true" id="2DList"/>
         <e enabled="false" id="tileapi"/>
     </exts>
@@ -57,8 +57,8 @@
             <r id="18"/>
             <r id="4"/>
             <r id="143"/>
-            <r id="455"/>
             <r id="8"/>
+            <r id="455"/>
             <r id="12"/>
             <r id="14"/>
         </group>
@@ -73,8 +73,8 @@
             <r id="75"/>
             <r id="85"/>
             <r id="87"/>
-            <r id="81"/>
             <r id="21"/>
+            <r id="81"/>
             <r id="83"/>
             <r id="23"/>
             <r id="93"/>
@@ -107,16 +107,16 @@
             <r id="87"/>
             <r id="4"/>
             <r id="13"/>
-            <r id="14"/>
             <r id="643"/>
+            <r id="14"/>
             <r id="15"/>
         </group>
         <group desc="" id="3" name="MamburaoCampus_b" type="snippet">
             <r id="18"/>
             <r id="93"/>
             <r id="92"/>
-            <r id="95"/>
             <r id="27"/>
+            <r id="95"/>
             <r id="94"/>
             <r id="89"/>
             <r id="91"/>
@@ -193,11 +193,11 @@
             <r id="199"/>
             <r id="193"/>
             <r id="195"/>
-            <r id="221"/>
             <r id="153"/>
+            <r id="221"/>
             <r id="155"/>
-            <r id="157"/>
             <r id="217"/>
+            <r id="157"/>
             <r id="219"/>
             <r id="159"/>
             <r id="213"/>
@@ -262,33 +262,46 @@
             <r id="183"/>
         </group>
         <group desc="" id="8" name="RoomDetails" type="actor">
+            <r id="713"/>
             <r id="237"/>
-            <r id="223"/>
+            <r id="715"/>
             <r id="235"/>
+            <r id="717"/>
             <r id="233"/>
+            <r id="719"/>
             <r id="231"/>
             <r id="229"/>
             <r id="227"/>
             <r id="225"/>
+            <r id="728"/>
+            <r id="223"/>
+            <r id="697"/>
+            <r id="721"/>
+            <r id="724"/>
+            <r id="726"/>
         </group>
         <group desc="" id="9" name="ViewDetails" type="scene">
             <r id="4"/>
             <r id="5"/>
             <r id="6"/>
+            <r id="10"/>
+            <r id="11"/>
+            <r id="12"/>
+            <r id="13"/>
         </group>
         <group desc="" id="10" name="LabanganACampus" type="actor">
             <r id="275"/>
             <r id="273"/>
-            <r id="279"/>
             <r id="339"/>
-            <r id="277"/>
+            <r id="279"/>
             <r id="337"/>
+            <r id="277"/>
             <r id="283"/>
             <r id="281"/>
             <r id="287"/>
             <r id="285"/>
-            <r id="259"/>
             <r id="327"/>
+            <r id="259"/>
             <r id="325"/>
             <r id="257"/>
             <r id="323"/>
@@ -301,30 +314,30 @@
             <r id="265"/>
             <r id="331"/>
             <r id="271"/>
-            <r id="269"/>
             <r id="329"/>
-            <r id="239"/>
+            <r id="269"/>
             <r id="305"/>
+            <r id="239"/>
             <r id="311"/>
             <r id="313"/>
             <r id="315"/>
             <r id="317"/>
             <r id="319"/>
-            <r id="255"/>
             <r id="289"/>
-            <r id="253"/>
+            <r id="255"/>
             <r id="291"/>
-            <r id="293"/>
+            <r id="253"/>
             <r id="251"/>
-            <r id="295"/>
+            <r id="293"/>
             <r id="249"/>
-            <r id="297"/>
+            <r id="295"/>
             <r id="247"/>
+            <r id="297"/>
             <r id="245"/>
-            <r id="301"/>
             <r id="243"/>
-            <r id="303"/>
+            <r id="301"/>
             <r id="241"/>
+            <r id="303"/>
         </group>
         <group desc="" id="11" name="LabanganACampus_b" type="snippet">
             <r id="275"/>
@@ -572,10 +585,6 @@
             <r id="677"/>
             <r id="675"/>
             <r id="673"/>
-            <r id="703"/>
-            <r id="701"/>
-            <r id="699"/>
-            <r id="695"/>
             <r id="693"/>
             <r id="691"/>
             <r id="653"/>
@@ -596,19 +605,13 @@
             <r id="659"/>
             <r id="479"/>
             <r id="477"/>
-            <r id="713"/>
             <r id="509"/>
-            <r id="715"/>
             <r id="511"/>
-            <r id="717"/>
             <r id="505"/>
             <r id="507"/>
-            <r id="705"/>
             <r id="501"/>
             <r id="503"/>
-            <r id="709"/>
             <r id="497"/>
-            <r id="711"/>
             <r id="499"/>
             <r id="493"/>
             <r id="495"/>
@@ -717,13 +720,6 @@
             <r id="641"/>
             <r id="640"/>
             <r id="642"/>
-            <r id="664"/>
-            <r id="665"/>
-            <r id="666"/>
-            <r id="660"/>
-            <r id="661"/>
-            <r id="662"/>
-            <r id="663"/>
         </group>
     </folders>
     <packs/>
@@ -748,8 +744,8 @@
     <props/>
     <attributes>
         <boolean cid="-1" id="3" name="ViewPath_Mamburao" save="true" value="false"/>
-        <boolean cid="-1" id="5" name="btnPath_Clicked" save="true" value="false"/>
         <boolean cid="-1" id="0" name="att_btnDestination" save="true" value="true"/>
+        <boolean cid="-1" id="5" name="btnPath_Clicked" save="true" value="false"/>
         <text cid="-1" id="4" name="SelectedPath" save="true" value="zzzz"/>
         <text cid="-1" id="6" name="RoomName" save="true" value="&lt;Room Name&gt;"/>
         <text cid="-1" id="8" name="RoomImg" save="true" value="&lt;img&gt;"/>
@@ -784,7 +780,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="2,4,8,12,14,16,18,21,23,25,29,31,33,39,43,41,47,45,51,49,55,53,59,57,63,61,69,71,65,67,77,79,73,75,85,87,81,83,93,95,89,91,101,99,97,111,109,107,105,119,117,115,113,127,125,123,121,137,139,141,143,129,131,133,135,153,155,157,159,145,147,149,151,171,169,175,173,163,161,167,165,187,185,191,189,179,177,183,181,205,207,201,203,197,199,193,195,221,223,217,219,213,215,209,211,239,237,235,233,231,229,227,225,255,253,251,249,247,245,243,241,275,273,279,277,283,281,287,285,259,257,263,261,267,265,271,269,305,311,313,315,317,319,289,291,293,295,297,301,303,343,341,339,337,351,349,347,345,327,325,323,321,335,333,331,329,373,375,369,371,381,383,377,379,357,359,353,355,365,367,361,363,411,409,415,413,403,401,407,405,395,393,399,397,387,385,391,389,441,443,445,447,433,435,437,439,425,427,429,431,417,419,421,423,479,477,473,471,469,467,465,463,461,459,457,455,453,451,449,509,511,505,507,501,503,497,499,493,495,489,491,485,487,481,483,551,549,547,545,559,557,555,553,567,565,563,561,575,573,571,569,517,519,513,515,525,527,521,523,533,535,529,531,541,543,537,539,611,609,615,613,619,617,623,621,627,631,629,635,633,639,637,577,579,581,583,585,587,589,591,593,595,597,599,601,603,605,607,687,681,679,677,675,673,703,701,699,695,693,691,653,655,649,651,645,647,641,643,669,671,665,667,661,663,657,659,713,715,717,705,709,711," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="2,4,8,12,14,16,18,21,23,25,29,31,33,39,43,41,47,45,51,49,55,53,59,57,63,61,69,71,65,67,77,79,73,75,85,87,81,83,93,95,89,91,101,99,97,111,109,107,105,119,117,115,113,127,125,123,121,137,139,141,143,129,131,133,135,153,155,157,159,145,147,149,151,171,169,175,173,163,161,167,165,187,185,191,189,179,177,183,181,205,207,201,203,197,199,193,195,221,223,217,219,213,215,209,211,239,237,235,233,231,229,227,225,255,253,251,249,247,245,243,241,275,273,279,277,283,281,287,285,259,257,263,261,267,265,271,269,305,311,313,315,317,319,289,291,293,295,297,301,303,343,341,339,337,351,349,347,345,327,325,323,321,335,333,331,329,373,375,369,371,381,383,377,379,357,359,353,355,365,367,361,363,411,409,415,413,403,401,407,405,395,393,399,397,387,385,391,389,441,443,445,447,433,435,437,439,425,427,429,431,417,419,421,423,479,477,473,471,469,467,465,463,461,459,457,455,453,451,449,509,511,505,507,501,503,497,499,493,495,489,491,485,487,481,483,551,549,547,545,559,557,555,553,567,565,563,561,575,573,571,569,517,519,513,515,525,527,521,523,533,535,529,531,541,543,537,539,611,609,615,613,619,617,623,621,627,631,629,635,633,639,637,577,579,581,583,585,587,589,591,593,595,597,599,601,603,605,607,687,681,679,677,675,673,697,693,691,653,655,649,651,645,647,641,643,669,671,665,667,661,663,657,659,713,715,717,719,728,721,724,726," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

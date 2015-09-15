@@ -80,7 +80,20 @@ class ActorEvents_713 extends ActorScript
 	
 	override public function init()
 	{
-		
+		    
+/* ======================== When Updating ========================= */
+addWhenUpdatedListener(null, function(elapsedTime:Float, list:Array<Dynamic>):Void
+{
+if(wrapper.enabled)
+{
+        if(actor.isMouseDown())
+{
+            switchScene(GameModel.get().scenes.get(10).getID(), createFadeOut(1, Utils.getColorRGB(0,0,0)), createFadeIn(1, Utils.getColorRGB(0,0,0)));
+}
+
+}
+});
+
 	}	      	
 	
 	override public function forwardMessage(msg:String)

@@ -46,8 +46,8 @@
                     <prop id="12" list="0" val="15"/>
                     <prop id="13" list="0" val="16"/>
                     <prop id="14" list="0" val="17"/>
-                    <prop id="15" list="0" val="22"/>
                     <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="15" list="0" val="22"/>
                     <prop id="16" list="0" val="21"/>
                 </s>
                 <s enabled="true" id="67"/>
@@ -57,6 +57,7 @@
         <actor a="0.0" aid="20" c="false" group="3" id="109" name="Destinationss 20" sx="1.0839161" sy="0.57345974" x="15" y="-36" z="2"/>
         <actor a="0.0" aid="23" c="false" group="3" id="229" name="btnSBY_ViewDetail 23" sx="1.0" sy="1.0" x="216" y="57" z="1"/>
         <actor a="0.0" aid="22" c="false" group="3" id="141" name="walker 22" sx="1.0" sy="1.0" x="50" y="60" z="4"/>
+        <actor a="0.0" aid="24" c="false" group="3" id="713" name="btnSBY_ViewRef 24" sx="1.0" sy="1.0" x="216" y="93" z="1"/>
     </actors>
     <snippets/>
     <terrain/>

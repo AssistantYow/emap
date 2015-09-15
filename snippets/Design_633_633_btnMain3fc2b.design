@@ -14,7 +14,7 @@
                                     <true comment="false" id="0" x="0" y="0"/>
                                 </set-game-val-5>
                                 <set-game-val-4 comment="false" x="48" y="161">
-                                    <int id="0" val="3f_c2"/>
+                                    <int id="0" val="3f_c3"/>
                                 </set-game-val-4>
                             </group>
                             <eq comment="false" id="0" x="0" y="0">
